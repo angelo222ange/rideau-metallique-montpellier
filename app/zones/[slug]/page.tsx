@@ -42,7 +42,7 @@ export default function ZonePage({ params }: Props) {
         title={`Rideau Métallique ${zone.name}`}
         subtitle={`Intervention rapide en 1 heure à ${zone.name} (${zone.postalCode}). Dépannage, installation, motorisation. 24h/24.`}
       />
-      <Services title={`Nos services à ${zone.name}`} />
+      <Services title={`Nos services à ${zone.name}`} zoneSlug={zone.slug} />
       
       <section className="section bg-gray-50">
         <div className="container">

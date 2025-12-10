@@ -7,24 +7,33 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        // ═══════════════════════════════════════════════════════════════
+        // COULEURS PRINCIPALES - MODIFIER ICI POUR CHAQUE SITE
+        // Palette orange industriel par défaut
+        // ═══════════════════════════════════════════════════════════════
         primary: {
-          50: 'var(--color-primary-50)',
-          100: 'var(--color-primary-100)',
-          200: 'var(--color-primary-200)',
-          300: 'var(--color-primary-300)',
-          400: 'var(--color-primary-400)',
-          500: 'var(--color-primary-500)',
-          600: 'var(--color-primary-600)',
-          700: 'var(--color-primary-700)',
-          800: 'var(--color-primary-800)',
-          900: 'var(--color-primary-900)',
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',  // Couleur principale
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
         },
+        // Vous pouvez ajouter d'autres couleurs personnalisées ici
+        // accent: {
+        //   500: '#3b82f6',
+        //   600: '#2563eb',
+        // },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        // Police principale - MODIFIER ICI SI BESOIN
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
-

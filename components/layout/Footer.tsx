@@ -282,7 +282,7 @@ export function Footer() {
                   <a
                     href={siteConfig.social.facebook || "#"}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-xl text-white hover:bg-[#1877F2] transition-all"
                     aria-label="Facebook"
                   >
@@ -294,7 +294,7 @@ export function Footer() {
                   <a
                     href={siteConfig.social.instagram || "#"}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-xl text-white hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#F77737] transition-all"
                     aria-label="Instagram"
                   >
@@ -304,7 +304,7 @@ export function Footer() {
                   </a>
                   {/* Google */}
                   <a
-                    href={siteConfig.social.google || siteConfig.reviews.googleUrl || "#"}
+                    href={siteConfig.reviews.googleUrl || siteConfig.social.google || "#"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-xl text-white hover:bg-[#4285F4] transition-all"
@@ -341,6 +341,12 @@ export function Footer() {
                   className="text-primary-300 hover:text-white transition-colors"
                 >
                   Confidentialité
+                </Link>
+                <Link 
+                  href="/cookies" 
+                  className="text-primary-300 hover:text-white transition-colors"
+                >
+                  Cookies
                 </Link>
                 <Link 
                   href="/contact-rideau-metallique" 

@@ -44,8 +44,8 @@ export const siteConfig = {
   // RÉSEAUX SOCIAUX
   // ─────────────────────────────────────────────────────────────────────────
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.instagram.com/",
     google: "",
   },
   
@@ -55,7 +55,7 @@ export const siteConfig = {
   reviews: {
     rating: 4.9,
     count: 127,
-    googleUrl: "",
+    googleUrl: "https://share.google/5gjiK7yhuHcsPKCxw",
   },
 
   // ─────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,87 @@
+{
+  "id": "deblocage",
+  "title": "Déblocage de Rideau Métallique à Montpellier",
+  "subtitle": "Intervention Express en Moins d'1 Heure",
+  "description": "Votre rideau métallique est bloqué, coincé ou ne répond plus ? Nos techniciens experts interviennent rapidement dans tout le 34 pour débloquer votre rideau et sécuriser votre commerce. Basés au cœur de l'Hérault, nous garantissons une intervention professionnelle avec un diagnostic précis.",
+  "image": "/images/hero/depannage-rideau-de-fer-montpellier-34.webp",
+  "imageAlt": "Technicien DRM en intervention pour déblocage rideau métallique à Montpellier",
+  "stats": {
+    "value": "30-45",
+    "unit": "min",
+    "label": "Temps moyen de déblocage"
+  },
+  "badge": {
+    "text": "Urgence 24h/24",
+    "icon": "bolt"
+  },
+  "causes": [
+    {
+      "title": "Axe d'enroulement cassé",
+      "description": "L'axe d'enroulement qui permet l'enroulement du tablier est endommagé ou rompu",
+      "icon": "cog"
+    },
+    {
+      "title": "Lames déformées ou tordues",
+      "description": "Suite à un choc, tentative d'effraction ou usure naturelle",
+      "icon": "shield"
+    },
+    {
+      "title": "Moteur électrique défaillant",
+      "description": "Le moteur ne répond plus, grillé ou problème de condensateur",
+      "icon": "bolt"
+    },
+    {
+      "title": "Attache tablier défectueuse",
+      "description": "Les attaches reliant le tablier à l'axe sont cassées ou desserrées",
+      "icon": "link"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Diagnostic sur place",
+      "description": "Identification rapide de la cause du blocage"
+    },
+    {
+      "step": 2,
+      "title": "Déblocage sécurisé",
+      "description": "Intervention technique pour libérer le rideau"
+    },
+    {
+      "step": 3,
+      "title": "Réparation si nécessaire",
+      "description": "Remplacement des pièces défectueuses"
+    },
+    {
+      "step": 4,
+      "title": "Test et remise en service",
+      "description": "Vérification complète du fonctionnement"
+    }
+  ],
+  "features": [
+    "Intervention en moins d'1h dans Montpellier (34000)",
+    "Techniciens formés et expérimentés",
+    "Pièces détachées en stock dans notre véhicule",
+    "Devis gratuit avant toute intervention",
+    "Garantie sur les réparations effectuées"
+  ],
+  "cta": {
+    "primary": {
+      "text": "Appeler maintenant",
+      "href": "tel:+33411937676"
+    },
+    "secondary": {
+      "text": "Demander un devis",
+      "href": "/contact"
+    }
+  },
+  "seo": {
+    "keywords": [
+      "déblocage rideau métallique Montpellier",
+      "rideau métallique bloqué 34",
+      "rideau coincé Hérault",
+      "débloquer rideau de fer",
+      "intervention urgente rideau métallique"
+    ]
+  }
+}

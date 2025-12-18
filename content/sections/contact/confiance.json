@@ -1,0 +1,78 @@
+{
+  "id": "confiance",
+  "title": "DRM Montpellier",
+  "titleHighlight": "Votre Expert Rideau Métallique de Confiance",
+  "subtitle": "Depuis plus de 15 ans, nous accompagnons les commerçants et professionnels de l'Hérault dans la protection de leurs locaux. Notre expertise locale et notre engagement qualité font de nous la référence en matière de rideau métallique à Montpellier et dans toute l'Occitanie.",
+  "badge": {
+    "text": "Expert certifié",
+    "icon": "award"
+  },
+  "pillars": [
+    {
+      "id": "experience",
+      "icon": "calendar",
+      "value": "15+",
+      "unit": "ans",
+      "title": "Expérience Locale",
+      "description": "Plus de 15 ans d'expertise dans le dépannage et l'installation de rideaux métalliques à Montpellier. Une connaissance approfondie du tissu commercial héraultais.",
+      "color": "primary"
+    },
+    {
+      "id": "interventions",
+      "icon": "tools",
+      "value": "5000+",
+      "unit": "",
+      "title": "Interventions Réalisées",
+      "description": "Plus de 5000 dépannages, installations et entretiens effectués dans tout le département 34. Chaque intervention renforce notre expertise.",
+      "color": "secondary"
+    },
+    {
+      "id": "equipe",
+      "icon": "users",
+      "value": "8",
+      "unit": "techniciens",
+      "title": "Équipe Qualifiée",
+      "description": "Une équipe de 8 techniciens formés et expérimentés, certifiés pour intervenir sur tous types de rideaux métalliques, manuels ou motorisés.",
+      "color": "accent"
+    },
+    {
+      "id": "devis",
+      "icon": "check-circle",
+      "value": "100%",
+      "unit": "",
+      "title": "Devis Honorés",
+      "description": "Tous nos devis sont respectés sans surprise. Prix transparent, pas de frais cachés. Nous nous engageons sur le montant annoncé.",
+      "color": "green"
+    }
+  ],
+  "trustBadges": [
+    {
+      "icon": "shield",
+      "text": "Assurance décennale"
+    },
+    {
+      "icon": "certificate",
+      "text": "Certification CE"
+    },
+    {
+      "icon": "star",
+      "text": "4.9/5 sur Google"
+    }
+  ],
+  "testimonialHighlight": {
+    "quote": "Une équipe réactive et professionnelle. Intervention rapide après un cambriolage, rideau réparé en moins de 2h. Je recommande vivement !",
+    "author": "Marc D.",
+    "role": "Gérant de restaurant, Antigone",
+    "rating": 5
+  },
+  "cta": {
+    "text": "Contactez-nous",
+    "href": "tel:+33411937676"
+  },
+  "localSeo": {
+    "intro": "Entreprise héraultaise de référence pour le dépannage et l'installation de rideaux métalliques à Montpellier (34000), Castelnau-le-Lez, Lattes, Pérols et dans toute l'agglomération montpelliéraine.",
+    "expertise": "Notre expertise couvre tous les aspects du rideau métallique : dépannage urgence 24h/24, fabrication sur-mesure, motorisation, entretien préventif. Artisan local certifié dans le département 34.",
+    "zones": "Intervention rapide dans tout Montpellier Centre, L'Écusson, Antigone, Port Marianne, et les communes environnantes de la métropole."
+  }
+}
+

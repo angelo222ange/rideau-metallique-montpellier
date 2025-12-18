@@ -1,0 +1,126 @@
+{
+  "id": "normes",
+  "title": "Rideaux Métalliques Certifiés CE",
+  "titleHighlight": "Normes Européennes Respectées",
+  "subtitle": "La sécurité de votre commerce ne s'improvise pas. Tous nos rideaux métalliques sont fabriqués conformément aux normes européennes en vigueur, garantissant une protection optimale et une conformité réglementaire totale.",
+  "badge": {
+    "text": "Qualité certifiée",
+    "icon": "badge-check"
+  },
+  "mainNorm": {
+    "code": "EN 13241-1",
+    "title": "Norme Européenne Portes et Portails Industriels",
+    "description": "Cette norme définit les exigences de sécurité et de performance pour les portes et portails industriels, commerciaux et de garage. Elle couvre la résistance mécanique, la protection contre l'écrasement, la durabilité et la fiabilité.",
+    "requirements": [
+      "Résistance à l'effraction selon classe RC",
+      "Dispositif anti-chute obligatoire",
+      "Marquage CE avec déclaration de performances",
+      "Notice d'utilisation et d'entretien"
+    ]
+  },
+  "certifications": [
+    {
+      "id": "ce",
+      "icon": "ce-mark",
+      "title": "Marquage CE",
+      "description": "Conformité aux directives européennes de sécurité des produits",
+      "detail": "Obligatoire depuis 2013 pour tous les rideaux métalliques commercialisés en Europe"
+    },
+    {
+      "id": "coupe-feu",
+      "icon": "fire",
+      "title": "Certification Coupe-Feu",
+      "description": "Résistance au feu de 30 min à 2h selon les modèles",
+      "detail": "Option EI30 à EI120 pour les ERP et bâtiments à risques"
+    },
+    {
+      "id": "anti-effraction",
+      "icon": "shield-lock",
+      "title": "Classe Anti-Effraction",
+      "description": "Classification RC1 à RC4 selon niveau de protection",
+      "detail": "Test de résistance aux tentatives d'intrusion"
+    },
+    {
+      "id": "isolation",
+      "icon": "thermometer",
+      "title": "Performance Thermique",
+      "description": "Isolation renforcée pour économies d'énergie",
+      "detail": "Coefficient Ud jusqu'à 1.0 W/m²K sur modèles isolés"
+    }
+  ],
+  "timeline": [
+    {
+      "step": 1,
+      "title": "Conception",
+      "description": "Bureau d'études intégré pour plans techniques conformes",
+      "icon": "blueprint"
+    },
+    {
+      "step": 2,
+      "title": "Fabrication",
+      "description": "Atelier certifié, contrôle qualité à chaque étape",
+      "icon": "factory"
+    },
+    {
+      "step": 3,
+      "title": "Certification",
+      "description": "Tests et marquage CE avant livraison",
+      "icon": "certificate"
+    },
+    {
+      "step": 4,
+      "title": "Installation",
+      "description": "Pose par techniciens qualifiés selon DTU",
+      "icon": "tools"
+    }
+  ],
+  "guarantees": [
+    {
+      "icon": "document",
+      "title": "Documentation Complète",
+      "description": "Déclaration de performances, notice, certificats fournis"
+    },
+    {
+      "icon": "shield",
+      "title": "Assurance Décennale",
+      "description": "Couverture complète pendant 10 ans après installation"
+    },
+    {
+      "icon": "refresh",
+      "title": "SAV Certifié",
+      "description": "Maintenance et pièces d'origine garanties"
+    },
+    {
+      "icon": "award",
+      "title": "Qualification RGE",
+      "description": "Professionnels reconnus garant de l'environnement"
+    }
+  ],
+  "erpInfo": {
+    "title": "Conformité ERP",
+    "subtitle": "Établissements Recevant du Public",
+    "description": "Pour les commerces et établissements recevant du public, des normes spécifiques s'appliquent concernant la sécurité incendie et l'accessibilité. Nos équipes maîtrisent parfaitement ces réglementations.",
+    "points": [
+      "Rideau coupe-feu EI30 à EI120 selon classement",
+      "Dispositif d'ouverture d'urgence",
+      "Largeur de passage conforme PMR",
+      "Commande accessible à 1.30m du sol"
+    ]
+  },
+  "cta": {
+    "primary": {
+      "text": "Vérifier la conformité de votre projet",
+      "href": "/contact"
+    },
+    "secondary": {
+      "text": "Appeler un expert",
+      "href": "tel:+33411937676"
+    }
+  },
+  "localSeo": {
+    "intro": "Fabrication de rideaux métalliques certifiés CE à Montpellier (34000) et dans l'Hérault.",
+    "expertise": "Artisan qualifié pour la pose de rideaux métalliques conformes aux normes européennes EN 13241-1 dans le département 34.",
+    "services": "Installation de rideaux coupe-feu, anti-effraction certifiés pour commerces et ERP à Montpellier, Castelnau-le-Lez, Lattes et toute l'agglomération."
+  }
+}
+

@@ -1,0 +1,159 @@
+{
+  "id": "temoignages-motorisation",
+  "badge": {
+    "text": "Avis Vérifiés",
+    "icon": "star"
+  },
+  "title": "Ils Ont Motorisé Leur Rideau",
+  "titleHighlight": "Témoignages de Commerçants Montpelliérains",
+  "subtitle": "Découvrez les retours d'expérience de commerçants de Montpellier et de l'Hérault qui ont fait confiance à DRM pour la motorisation de leur rideau métallique.",
+  
+  "intro": {
+    "text": "Depuis 15 ans, nous accompagnons les commerçants du 34 dans la modernisation de leurs rideaux métalliques. Voici ce qu'ils en pensent après plusieurs mois d'utilisation quotidienne.",
+    "stats": {
+      "installations": "500+",
+      "satisfaction": "98%",
+      "recommandation": "4.9/5"
+    }
+  },
+  
+  "temoignages": [
+    {
+      "id": "t1",
+      "nom": "Philippe M.",
+      "commerce": "Boulangerie \"Au Pain Doré\"",
+      "quartier": "L'Écusson, Montpellier",
+      "codePostal": "34000",
+      "avatar": "/images/motorisation/temoignage-boulanger.webp",
+      "rating": 5,
+      "dateInstallation": "Mars 2023",
+      "typeMoteur": "Moteur tubulaire",
+      "temoignage": "Avec mes horaires de boulanger, je suis debout à 4h du matin. Avant la motorisation, descendre et remonter mon rideau de 15m² à la force des bras était épuisant. Depuis que DRM a installé le moteur, c'est un vrai soulagement. Un clic et c'est fait ! Je recommande à tous les artisans du quartier.",
+      "avantagesCites": ["Gain de temps", "Moins de fatigue", "Ouverture rapide"],
+      "highlight": "Un vrai soulagement pour mes horaires de boulanger"
+    },
+    {
+      "id": "t2",
+      "nom": "Sophie et Karim L.",
+      "commerce": "Pharmacie du Soleil",
+      "quartier": "Antigone, Montpellier",
+      "codePostal": "34000",
+      "avatar": "/images/motorisation/temoignage-pharmacie.webp",
+      "rating": 5,
+      "dateInstallation": "Juin 2023",
+      "typeMoteur": "Moteur central",
+      "temoignage": "Notre pharmacie est ouverte 7j/7. Avec le passage incessant de clients, nous avions besoin d'un système fiable et rapide. L'équipe DRM a installé un moteur central avec clavier à code en une demi-journée. C'est pratique pour notre équipe de 6 personnes qui peut ouvrir sans clé.",
+      "avantagesCites": ["Clavier à code multi-utilisateurs", "Installation rapide", "SAV réactif"],
+      "highlight": "Fiable et pratique pour notre équipe de 6 personnes"
+    },
+    {
+      "id": "t3",
+      "nom": "Jean-Marc R.",
+      "commerce": "Garage Auto Prestige",
+      "quartier": "Port Marianne, Montpellier",
+      "codePostal": "34000",
+      "avatar": "/images/motorisation/temoignage-garage.webp",
+      "rating": 5,
+      "dateInstallation": "Septembre 2022",
+      "typeMoteur": "Moteur latéral haute puissance",
+      "temoignage": "Mon rideau fait plus de 25m² et pèse une tonne. Avant, il fallait deux personnes pour le manœuvrer. DRM m'a conseillé un moteur latéral haute puissance adapté à cette dimension. Résultat : ouverture fluide en 8 secondes. L'investissement le plus intelligent que j'ai fait pour mon garage.",
+      "avantagesCites": ["Adapté aux grands rideaux", "Moteur puissant", "Conseil expert"],
+      "highlight": "L'investissement le plus intelligent pour mon garage"
+    },
+    {
+      "id": "t4",
+      "nom": "Marie-Claire D.",
+      "commerce": "Boutique \"Les Trésors de Marie\"",
+      "quartier": "Centre-ville, Castelnau-le-Lez",
+      "codePostal": "34170",
+      "avatar": "/images/motorisation/temoignage-boutique.webp",
+      "rating": 5,
+      "dateInstallation": "Janvier 2024",
+      "typeMoteur": "Moteur tubulaire silencieux",
+      "temoignage": "À 62 ans, je ne pouvais plus manipuler mon rideau manuel. Je pensais devoir fermer ma boutique... DRM m'a proposé une motorisation adaptée avec télécommande. C'est une renaissance ! Je peux continuer mon activité sereinement. Merci à toute l'équipe pour leur gentillesse.",
+      "avantagesCites": ["Solution adaptée seniors", "Télécommande simple", "Équipe à l'écoute"],
+      "highlight": "Une renaissance pour continuer mon activité"
+    },
+    {
+      "id": "t5",
+      "nom": "Thomas B.",
+      "commerce": "Restaurant \"La Table d'Oc\"",
+      "quartier": "Place de la Comédie, Montpellier",
+      "codePostal": "34000",
+      "avatar": "/images/motorisation/temoignage-restaurant.webp",
+      "rating": 5,
+      "dateInstallation": "Mai 2023",
+      "typeMoteur": "Moteur tubulaire + batterie secours",
+      "temoignage": "Avec le service du midi et du soir, je manipulais mon rideau 4 fois par jour minimum. Le moteur avec batterie de secours me garantit de ne jamais rester bloqué, même en cas de coupure de courant. Pour un resto en plein centre de Montpellier, c'est essentiel.",
+      "avantagesCites": ["Batterie de secours", "Usage intensif", "Fiabilité"],
+      "highlight": "Jamais bloqué même en cas de coupure de courant"
+    },
+    {
+      "id": "t6",
+      "nom": "Famille Nguyen",
+      "commerce": "Traiteur Asiatique \"Saveurs d'Asie\"",
+      "quartier": "Les Beaux-Arts, Montpellier",
+      "codePostal": "34000",
+      "avatar": "/images/motorisation/temoignage-traiteur.webp",
+      "rating": 4,
+      "dateInstallation": "Novembre 2023",
+      "typeMoteur": "Moteur tubulaire",
+      "temoignage": "Nous avons fait appel à DRM sur recommandation d'un voisin commerçant. L'installation s'est bien passée et le moteur fonctionne parfaitement depuis. Seul petit bémol : le délai d'intervention initiale était un peu long (10 jours). Sinon, rien à redire sur la qualité.",
+      "avantagesCites": ["Recommandé par un voisin", "Qualité du travail", "Bon fonctionnement"],
+      "highlight": "Recommandé par un commerçant voisin"
+    }
+  ],
+  
+  "statsGlobales": {
+    "noteGlobale": "4.9",
+    "totalAvis": "127",
+    "recommandent": "98%",
+    "repartition": {
+      "5etoiles": 89,
+      "4etoiles": 8,
+      "3etoiles": 2,
+      "2etoiles": 1,
+      "1etoile": 0
+    }
+  },
+  
+  "avantagesLesPlusCites": [
+    {
+      "avantage": "Gain de temps",
+      "pourcentage": 94,
+      "icon": "clock"
+    },
+    {
+      "avantage": "Confort d'utilisation",
+      "pourcentage": 91,
+      "icon": "hand"
+    },
+    {
+      "avantage": "Sécurité renforcée",
+      "pourcentage": 87,
+      "icon": "shield"
+    },
+    {
+      "avantage": "Qualité du SAV",
+      "pourcentage": 85,
+      "icon": "tools"
+    }
+  ],
+  
+  "cta": {
+    "title": "Rejoignez nos clients satisfaits",
+    "description": "Plus de 500 commerçants de Montpellier et de l'Hérault nous font confiance pour leur motorisation.",
+    "buttonText": "Demander un devis gratuit"
+  },
+  
+  "seo": {
+    "keywords": [
+      "avis motorisation rideau métallique",
+      "témoignage rideau électrique Montpellier",
+      "DRM avis clients 34",
+      "commerçant rideau motorisé Hérault",
+      "satisfaction motorisation rideau"
+    ]
+  }
+}
+

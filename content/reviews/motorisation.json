@@ -1,0 +1,89 @@
+[
+  {
+    "id": "mot-1",
+    "name": "Loring Austin",
+    "rating": 5,
+    "date": "il y a 5 jours",
+    "text": "J'ai fait appel à drm montpellier pour un problème de fin de course sur le moteur du rideau de mon magasin. Ils ont fait le réglage et vérifié l'ensemble. Depuis, plus aucun souci. Bonne communication et ponctualité.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-green-500"
+  },
+  {
+    "id": "mot-2",
+    "name": "Roch Mireault",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Motorisation de mon ancien rideau métallique manuel. DRM a installé un moteur tubulaire avec télécommande. Première fois que j'avais besoin de ce type d'équipement. Ils m'ont mis en confiance et tout expliqué.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-blue-600"
+  },
+  {
+    "id": "mot-3",
+    "name": "Thierry Morel",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Installation d'un moteur central pour mon rideau métallique de garage. Plus besoin de forcer pour ouvrir ! L'installation a pris une demi-journée, tout fonctionne parfaitement. Télécommande très pratique.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-violet-400 to-purple-600"
+  },
+  {
+    "id": "mot-4",
+    "name": "Vincent Leroy",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Motorisation avec ajout d'un clavier à code pour mon local commercial. Fini les clés perdues ! Le système est fiable et le technicien a pris le temps de me former à l'utilisation.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "icon"
+  },
+  {
+    "id": "mot-5",
+    "name": "Patrice Girard",
+    "rating": 5,
+    "date": "il y a 3 semaines",
+    "text": "Passage de manuel à automatique pour 2 rideaux à mon dépôt de Pérols. Les moteurs sont silencieux, l'ouverture rapide. J'aurais dû le faire plus tôt ! Équipe DRM très compétente.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-orange-500"
+  },
+  {
+    "id": "mot-6",
+    "name": "Stéphane Martin",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Remplacement du moteur défaillant de mon rideau métallique. DRM a diagnostiqué rapidement le problème et proposé un nouveau moteur adapté. Installation propre, garantie 2 ans. Rapport qualité-prix correct.",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "mot-7",
+    "name": "Éric Bonnet",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Ajout d'une batterie de secours sur la motorisation de mon commerce. En cas de coupure de courant, je peux quand même ouvrir/fermer. Installation par DRM, très satisfait de ce supplément de sécurité.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-emerald-500"
+  },
+  {
+    "id": "mot-8",
+    "name": "Alain Dupuis",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Motorisation avec commande smartphone pour mon nouveau local à Antigone. Je peux ouvrir à distance pour les livraisons. Technologie au top et mise en service rapide. Merci à l'équipe DRM !",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-sky-400 to-blue-500"
+  }
+]
+

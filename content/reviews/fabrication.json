@@ -1,0 +1,88 @@
+[
+  {
+    "id": "fab-1",
+    "name": "Bastien Aubert",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Passé par l'entreprise drm à Montpellier pour une installation de rideaux métalliques à mon entrepôt. Comparé à mon précédent essai avec un autre fournisseur, le niveau de professionnalisme était vraiment supérieur. Fabrication sur-mesure parfaite.",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "fab-2",
+    "name": "Marc Dupont",
+    "rating": 5,
+    "date": "il y a 3 semaines",
+    "text": "Rideau métallique sur-mesure pour mon commerce à Montpellier Centre. Les mesures ont été prises avec précision, la fabrication rapide et l'installation impeccable. Le rendu est exactement ce que j'attendais.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-blue-600"
+  },
+  {
+    "id": "fab-3",
+    "name": "Sophie Martin",
+    "rating": 5,
+    "date": "il y a 2 mois",
+    "text": "Fabrication d'un rideau métallique micro-perforé pour ma boutique. J'avais besoin de visibilité tout en sécurisant le local. DRM a parfaitement compris mes besoins et le résultat est magnifique.",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "gradient",
+    "avatarColor": "from-pink-400 to-rose-500"
+  },
+  {
+    "id": "fab-4",
+    "name": "Philippe Garnier",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Installation de deux rideaux métalliques pour mes garages. La fabrication a pris 15 jours comme prévu, qualité acier galvanisé top. Les techniciens ont été très professionnels lors de la pose.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "icon"
+  },
+  {
+    "id": "fab-5",
+    "name": "Laurent Mercier",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Commande d'un rideau métallique coupe-feu pour mon local commercial. Normes respectées, certificat CE fourni. Le délai de fabrication était raisonnable et le prix compétitif par rapport aux autres devis.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-green-500"
+  },
+  {
+    "id": "fab-6",
+    "name": "Christophe Bernard",
+    "rating": 5,
+    "date": "il y a 3 semaines",
+    "text": "Remplacement complet du rideau métallique de mon restaurant à Antigone. DRM a fabriqué un nouveau rideau en aluminium parfaitement adapté aux dimensions. Esthétique moderne et sécurité renforcée.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "fab-7",
+    "name": "Nicolas Fournier",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Grille articulée sur-mesure pour ma pharmacie. Le conseil de DRM m'a permis de choisir le modèle le plus adapté. Fabrication soignée et pose propre. Je recommande pour la fabrication.",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "letter",
+    "avatarColor": "bg-purple-500"
+  },
+  {
+    "id": "fab-8",
+    "name": "Antoine Leblanc",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Fabrication rideau métallique pour mon nouveau local à Lattes. Devis détaillé, pas de mauvaise surprise. Le rideau est robuste et l'isolation phonique est un vrai plus par rapport à l'ancien.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-amber-400 to-orange-500"
+  }
+]
+

@@ -1,8 +1,8 @@
 {
-  "name": "rideau-metallique-template",
+  "name": "drm-montpellier",
   "version": "1.0.0",
   "private": true,
-  "description": "Template Next.js pour sites de dépannage rideau métallique",
+  "description": "DRM Montpellier - Dépannage Rideau Métallique à Montpellier",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

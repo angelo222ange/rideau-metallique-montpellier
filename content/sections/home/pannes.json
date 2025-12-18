@@ -1,0 +1,129 @@
+{
+  "id": "pannes",
+  "title": "Pannes de Rideau Métallique",
+  "titleHighlight": "Diagnostic et Réparation à Montpellier",
+  "subtitle": "Nos techniciens experts interviennent sur toutes les pannes de rideaux métalliques dans le 34. Diagnostic précis et réparation rapide pour les commerces et professionnels de l'agglomération montpelliéraine.",
+  "badge": {
+    "text": "Expertise Technique",
+    "icon": "wrench"
+  },
+  "pannes": [
+    {
+      "id": "moteur",
+      "title": "Moteur électrique défaillant",
+      "shortTitle": "Panne Moteur",
+      "description": "Votre moteur de rideau métallique ne répond plus ? Condensateur grillé, fin de course déréglé ou moteur hors service : nos techniciens diagnostiquent et réparent tous types de motorisations à Montpellier.",
+      "symptoms": [
+        "Le rideau ne monte ni ne descend",
+        "Bruit de moteur sans mouvement",
+        "Odeur de brûlé au niveau du caisson"
+      ],
+      "solution": "Remplacement condensateur ou moteur complet",
+      "urgency": "high",
+      "icon": "bolt",
+      "featured": true
+    },
+    {
+      "id": "lames",
+      "title": "Lames abîmées ou tordues",
+      "shortTitle": "Lames Endommagées",
+      "description": "Suite à un choc, une tentative d'effraction ou l'usure naturelle, les lames de votre rideau métallique peuvent se déformer et bloquer le mécanisme. Intervention rapide dans tout l'Hérault.",
+      "symptoms": [
+        "Rideau bloqué à mi-course",
+        "Grincement à l'ouverture",
+        "Lames visiblement pliées ou tordues"
+      ],
+      "solution": "Redressement ou remplacement des lames défectueuses",
+      "urgency": "medium",
+      "icon": "layers",
+      "featured": true
+    },
+    {
+      "id": "axe",
+      "title": "Axe d'enroulement cassé",
+      "shortTitle": "Axe Cassé",
+      "description": "L'axe d'enroulement supporte le poids du tablier. En cas de rupture, le rideau métallique devient inutilisable. Nos équipes remplacent les axes pour tous modèles à Montpellier (34000).",
+      "symptoms": [
+        "Tablier qui pend d'un côté",
+        "Bruit métallique anormal",
+        "Rideau complètement bloqué en haut"
+      ],
+      "solution": "Remplacement de l'axe avec vérification du tablier",
+      "urgency": "high",
+      "icon": "cog"
+    },
+    {
+      "id": "attache",
+      "title": "Attache tablier défaillante",
+      "shortTitle": "Attache Défaillante",
+      "description": "Les attaches reliant le tablier à l'axe d'enroulement peuvent se casser ou se desserrer avec le temps. Une panne courante que nous réparons quotidiennement en Occitanie.",
+      "symptoms": [
+        "Jeu anormal du tablier",
+        "Décalage du rideau",
+        "Claquements lors de la manœuvre"
+      ],
+      "solution": "Remplacement des attaches et réglage du tablier",
+      "urgency": "medium",
+      "icon": "link"
+    },
+    {
+      "id": "butees",
+      "title": "Butées de fin de course HS",
+      "shortTitle": "Fin de Course HS",
+      "description": "Les butées de fin de course limitent la montée et la descente du rideau. Mal réglées ou cassées, elles peuvent causer un blocage complet. Diagnostic gratuit à Montpellier Centre et environs.",
+      "symptoms": [
+        "Rideau qui dépasse la position haute ou basse",
+        "Arrêt aléatoire du rideau",
+        "Le rideau force sur le moteur"
+      ],
+      "solution": "Réglage ou remplacement des fins de course",
+      "urgency": "low",
+      "icon": "stop"
+    },
+    {
+      "id": "telecommande",
+      "title": "Télécommande ou récepteur défectueux",
+      "shortTitle": "Télécommande HS",
+      "description": "Problème de télécommande, récepteur radio défaillant ou piles usagées ? Nous intervenons sur tous les systèmes de commande à distance dans le département 34.",
+      "symptoms": [
+        "La télécommande ne répond plus",
+        "Portée réduite de la commande",
+        "Fonctionnement aléatoire"
+      ],
+      "solution": "Reprogrammation, remplacement pile ou récepteur",
+      "urgency": "low",
+      "icon": "signal"
+    }
+  ],
+  "stats": {
+    "pannesResolues": {
+      "value": "98%",
+      "label": "des pannes résolues en 1 passage"
+    },
+    "tempsIntervention": {
+      "value": "< 1h",
+      "label": "délai d'intervention Montpellier"
+    },
+    "experience": {
+      "value": "15+",
+      "label": "années d'expertise"
+    }
+  },
+  "cta": {
+    "title": "Rideau métallique en panne dans le 34 ?",
+    "description": "Nos techniciens qualifiés interviennent en urgence à Montpellier, Castelnau-le-Lez, Lattes et dans toute l'agglomération héraultaise.",
+    "buttonText": "Diagnostic Gratuit",
+    "phone": "04 11 93 76 76"
+  },
+  "seo": {
+    "keywords": [
+      "panne rideau métallique Montpellier",
+      "réparation rideau métallique 34",
+      "moteur rideau métallique grillé",
+      "lames rideau cassées Hérault",
+      "axe enroulement rideau métallique",
+      "rideau métallique ne fonctionne plus",
+      "dépannage rideau de fer Occitanie"
+    ]
+  }
+}

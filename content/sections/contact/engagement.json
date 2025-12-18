@@ -1,0 +1,107 @@
+{
+  "id": "engagement",
+  "title": "Nos Engagements Qualité",
+  "titleHighlight": "pour Votre Rideau Métallique",
+  "subtitle": "Chez DRM Montpellier, nous plaçons la satisfaction client au cœur de notre métier. Chaque intervention est réalisée selon des standards de qualité stricts, avec un seul objectif : votre tranquillité d'esprit.",
+  "badge": {
+    "text": "Garantie satisfaction",
+    "icon": "shield-check"
+  },
+  "engagements": [
+    {
+      "id": "devis-gratuit",
+      "icon": "document",
+      "title": "Devis Gratuit et Sans Engagement",
+      "description": "Nous nous déplaçons gratuitement pour évaluer vos besoins et vous fournir un devis détaillé. Aucune obligation, vous décidez en toute liberté.",
+      "highlight": true
+    },
+    {
+      "id": "prix-fixe",
+      "icon": "euro",
+      "title": "Prix Fixe Annoncé Respecté",
+      "description": "Le tarif indiqué sur votre devis est le montant final. Pas de mauvaise surprise, pas de frais supplémentaires cachés.",
+      "highlight": true
+    },
+    {
+      "id": "delais",
+      "icon": "clock",
+      "title": "Intervention dans les Délais Promis",
+      "description": "Nous respectons scrupuleusement les délais annoncés. Pour les urgences à Montpellier et dans le 34, intervention en moins d'1 heure garantie.",
+      "highlight": false
+    },
+    {
+      "id": "garantie",
+      "icon": "warranty",
+      "title": "Garantie Pièces et Main d'Œuvre",
+      "description": "Toutes nos interventions sont couvertes par une garantie. Pièces détachées et main d'œuvre garanties pour votre sérénité.",
+      "highlight": false
+    },
+    {
+      "id": "sav",
+      "icon": "headset",
+      "title": "SAV Réactif 7j/7",
+      "description": "Un problème après intervention ? Notre service après-vente est disponible 7 jours sur 7 pour répondre à vos questions et intervenir si nécessaire.",
+      "highlight": false
+    },
+    {
+      "id": "proprete",
+      "icon": "sparkles",
+      "title": "Chantier Propre et Respectueux",
+      "description": "Nous travaillons proprement et respectons votre local. Protection des sols, nettoyage après intervention, respect de votre activité.",
+      "highlight": false
+    }
+  ],
+  "guarantees": [
+    {
+      "icon": "shield",
+      "label": "Garantie 2 ans",
+      "description": "Sur toutes nos installations"
+    },
+    {
+      "icon": "certificate",
+      "label": "Certifié CE",
+      "description": "Normes européennes respectées"
+    },
+    {
+      "icon": "insurance",
+      "label": "Assurance RC Pro",
+      "description": "Protection complète"
+    },
+    {
+      "icon": "award",
+      "label": "Qualité Pro",
+      "description": "Artisan qualifié Hérault"
+    }
+  ],
+  "stats": {
+    "satisfaction": {
+      "value": 98,
+      "label": "Clients satisfaits"
+    },
+    "firstTime": {
+      "value": 95,
+      "label": "Problèmes résolus au 1er passage"
+    },
+    "response": {
+      "value": 30,
+      "unit": "min",
+      "label": "Temps de réponse moyen"
+    }
+  },
+  "cta": {
+    "primary": {
+      "text": "Demander un devis gratuit",
+      "href": "/contact"
+    },
+    "secondary": {
+      "text": "Appeler maintenant",
+      "href": "tel:+33411937676"
+    }
+  },
+  "localSeo": {
+    "intro": "Vos garanties pour tout dépannage ou installation de rideau métallique à Montpellier (34000) et dans l'Hérault.",
+    "coverage": "Nos engagements s'appliquent pour toutes nos interventions à Montpellier Centre, Antigone, Port Marianne, Castelnau-le-Lez, Lattes, Pérols et l'ensemble des communes de la métropole montpelliéraine.",
+    "commitment": "Artisan rideau métallique de confiance dans le département 34, nous mettons un point d'honneur à respecter chaque engagement pris envers nos clients de l'Occitanie."
+  }
+}
+

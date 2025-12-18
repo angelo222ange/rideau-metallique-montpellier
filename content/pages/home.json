@@ -36,9 +36,9 @@
         "description": "Spécialistes toutes marques : Somfy, Nice, Came, Hörmann, et tous types de rideaux."
       },
       {
-        "icon": "💰",
-        "title": "Tarifs transparents",
-        "description": "Devis gratuit avant intervention. Prix fixe annoncé, aucune surprise."
+        "icon": "📋",
+        "title": "Devis gratuit",
+        "description": "Devis gratuit et sans engagement avant intervention. Diagnostic sur place pour un chiffrage précis."
       },
       {
         "icon": "✅",
@@ -56,4 +56,3 @@
     "satisfactionLabel": "clients satisfaits"
   }
 }
-

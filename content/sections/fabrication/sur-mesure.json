@@ -1,0 +1,99 @@
+{
+  "id": "sur-mesure",
+  "title": "Rideau Métallique Sur-Mesure à Montpellier",
+  "titleHighlight": "L'Excellence Artisanale",
+  "subtitle": "Chaque commerce est unique. C'est pourquoi nous fabriquons des rideaux métalliques parfaitement adaptés à vos besoins, vos dimensions et votre activité. Un rideau sur-mesure garantit une protection optimale et une durabilité maximale pour votre local à Montpellier et dans l'Hérault.",
+  "badge": {
+    "text": "Fabrication locale",
+    "icon": "factory"
+  },
+  "advantages": [
+    {
+      "id": "adaptation",
+      "icon": "ruler",
+      "title": "Adaptation Parfaite",
+      "description": "Dimensions exactes au millimètre près pour une intégration parfaite dans votre devanture. Pas de jeu, pas d'espace, une protection totale.",
+      "highlight": "100% adapté"
+    },
+    {
+      "id": "durabilite",
+      "icon": "shield",
+      "title": "Durabilité Supérieure",
+      "description": "Matériaux sélectionnés et assemblage de qualité pour une durée de vie jusqu'à 25 ans avec un entretien régulier. Investissement rentable sur le long terme.",
+      "highlight": "25 ans de vie"
+    },
+    {
+      "id": "esthetique",
+      "icon": "palette",
+      "title": "Esthétique Personnalisée",
+      "description": "Large choix de finitions : couleurs RAL, laquage, microperforations décoratives. Votre rideau s'intègre harmonieusement à la façade de votre commerce.",
+      "highlight": "200+ couleurs"
+    },
+    {
+      "id": "normes",
+      "icon": "certificate",
+      "title": "Normes Respectées",
+      "description": "Fabrication conforme aux normes européennes EN 13241-1. Marquage CE, certification qualité et respect des réglementations ERP si nécessaire.",
+      "highlight": "Certifié CE"
+    }
+  ],
+  "comparison": {
+    "title": "Sur-Mesure vs Standard : La Différence",
+    "surMesure": {
+      "label": "Sur-Mesure DRM",
+      "points": [
+        "Dimensions exactes au mm",
+        "Finitions personnalisées",
+        "Durée de vie 20-25 ans",
+        "Garantie complète 5 ans",
+        "Pièces toujours disponibles"
+      ]
+    },
+    "standard": {
+      "label": "Rideau Standard",
+      "points": [
+        "Dimensions standardisées",
+        "Coloris limités",
+        "Durée de vie 10-15 ans",
+        "Garantie basique 2 ans",
+        "Pièces parfois introuvables"
+      ]
+    }
+  },
+  "testimonial": {
+    "quote": "J'avais une devanture avec des dimensions atypiques. DRM a fabriqué un rideau parfaitement ajusté, avec la couleur exacte que je voulais. Résultat impeccable !",
+    "author": "Sophie M.",
+    "role": "Gérante boutique mode, L'Écusson",
+    "rating": 5
+  },
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Rideaux sur-mesure"
+    },
+    {
+      "value": "100%",
+      "label": "Satisfaction client"
+    },
+    {
+      "value": "5 ans",
+      "label": "Garantie complète"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "text": "Demander une étude gratuite",
+      "href": "/contact"
+    },
+    "secondary": {
+      "text": "Appeler un conseiller",
+      "href": "tel:+33411937676"
+    }
+  },
+  "localSeo": {
+    "intro": "Fabrication de rideaux métalliques sur-mesure à Montpellier (34000) par des artisans qualifiés de l'Hérault.",
+    "expertise": "Spécialiste du sur-mesure depuis 15 ans, nous réalisons des rideaux métalliques adaptés à tous types de commerces : boutiques, restaurants, pharmacies, garages dans tout le département 34.",
+    "zones": "Livraison et pose dans tout Montpellier, Castelnau-le-Lez, Lattes, Pérols, Saint-Jean-de-Védas et l'ensemble de la métropole montpelliéraine."
+  }
+}
+

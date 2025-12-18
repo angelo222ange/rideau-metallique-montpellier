@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "Fabrication Rideau Métallique Montpellier | Sur-Mesure Pro | DRM",
+    "description": "⭐ Fabrication rideau métallique à Montpellier (34). Sur-mesure pour commerces : lames pleines, micro-perforées, grilles, coupe-feu. ✓ Devis gratuit ✓ Garantie 2 ans ☎️ 04 11 93 76 76",
+    "keywords": ["fabrication rideau métallique Montpellier", "rideau métallique sur-mesure 34", "pose rideau métallique Hérault", "rideau de fer Montpellier", "grille métallique commerce", "fabricant rideau métallique Occitanie"]
+  },
+  "hero": {
+    "badge": "🔧 Fabrication Sur-Mesure",
+    "title": "Fabrication Rideau Métallique à Montpellier",
+    "subtitle": "Rideaux métalliques fabriqués sur-mesure pour sécuriser votre commerce. Qualité professionnelle, matériaux premium et installation garantie.",
+    "features": [
+      "Sur-mesure",
+      "Matériaux certifiés",
+      "Garantie 2 ans"
+    ]
+  },
+  "types": {
+    "title": "Types de Rideaux Métalliques",
+    "subtitle": "Nous fabriquons tous types de rideaux métalliques adaptés à vos besoins de sécurité et d'esthétique.",
+    "items": [
+      {
+        "id": "lames-pleines",
+        "name": "Rideau Métallique à Lames Pleines",
+        "description": "Solution de sécurité maximale pour commerces et entrepôts. Les lames pleines offrent une protection totale contre les intrusions et les regards.",
+        "features": [
+          "Sécurité maximale anti-intrusion",
+          "Occultation totale",
+          "Isolation thermique",
+          "Résistance aux chocs"
+        ],
+        "image": "/images/rideau-metallique-lame-pleine-montpellier-34.webp"
+      },
+      {
+        "id": "micro-perfore",
+        "name": "Rideau Métallique Micro-Perforé",
+        "description": "Compromis idéal entre sécurité et visibilité. Les micro-perforations permettent de voir votre vitrine tout en assurant la protection.",
+        "features": [
+          "Visibilité de la vitrine",
+          "Ventilation naturelle",
+          "Éclairage nocturne préservé",
+          "Esthétique moderne"
+        ],
+        "image": "/images/rideau-metallique-lame-micro-perforer-drm-montpellier.webp"
+      },
+      {
+        "id": "grilles",
+        "name": "Rideau Métallique Grille Ajourée",
+        "description": "Protection sécurisée avec visibilité totale. Parfait pour les commerces souhaitant exposer leurs produits même fermés.",
+        "features": [
+          "Visibilité maximale",
+          "Design élégant",
+          "Légèreté d'utilisation",
+          "Entretien minimal"
+        ],
+        "image": "/images/depannage-rideau-metallique-lame-cobra.webp"
+      },
+      {
+        "id": "polycarbonate",
+        "name": "Rideau Métallique en Polycarbonate",
+        "description": "Transparence totale et design moderne pour valoriser votre vitrine. Idéal pour les boutiques de luxe, bijouteries et commerces haut de gamme.",
+        "features": [
+          "Transparence totale",
+          "Résistance aux UV",
+          "Anti-rayures",
+          "Esthétique premium"
+        ],
+        "image": "/images/depannage-rideau-metallique-polycarbonate.webp",
+        "isNew": true
+      }
+    ]
+  },
+  "processus": {
+    "title": "Notre Processus de Fabrication",
+    "subtitle": "De la prise de mesures à l'installation, nous assurons chaque étape avec professionnalisme.",
+    "etapes": [
+      {
+        "numero": "01",
+        "titre": "Prise de Mesures",
+        "description": "Un technicien se déplace gratuitement pour prendre les mesures exactes et évaluer vos besoins.",
+        "duree": "1-2 jours"
+      },
+      {
+        "numero": "02",
+        "titre": "Devis Personnalisé",
+        "description": "Nous établissons un devis détaillé avec les meilleures options pour votre budget.",
+        "duree": "24-48h"
+      },
+      {
+        "numero": "03",
+        "titre": "Fabrication Atelier",
+        "description": "Votre rideau est fabriqué sur-mesure dans notre atelier avec des matériaux de qualité.",
+        "duree": "5-10 jours"
+      },
+      {
+        "numero": "04",
+        "titre": "Installation",
+        "description": "Nos techniciens qualifiés installent votre rideau métallique avec soin et précision.",
+        "duree": "1 jour"
+      }
+    ]
+  },
+  "materiaux": {
+    "title": "Matériaux de Qualité",
+    "subtitle": "Nous utilisons exclusivement des matériaux premium pour garantir durabilité et sécurité.",
+    "items": [
+      {
+        "id": "acier-galvanise",
+        "name": "Acier Galvanisé",
+        "description": "Le choix le plus courant, offrant un excellent rapport qualité/prix et une grande résistance à la corrosion.",
+        "avantages": ["Résistance à la corrosion", "Durabilité 20+ ans", "Économique", "Recyclable"]
+      },
+      {
+        "id": "aluminium",
+        "name": "Aluminium",
+        "description": "Matériau léger et moderne, idéal pour les grandes dimensions. Ne rouille jamais et s'entretient facilement.",
+        "avantages": ["Ultra-léger", "Inoxydable", "Design moderne", "Grandes dimensions"]
+      },
+      {
+        "id": "inox",
+        "name": "Acier Inoxydable",
+        "description": "Le haut de gamme pour les environnements exigeants. Résistance maximale et esthétique premium.",
+        "avantages": ["Résistance maximale", "Esthétique premium", "Environnements salins", "Hygiène (agroalimentaire)"]
+      }
+    ]
+  },
+  "garanties": {
+    "title": "Nos Garanties",
+    "items": [
+      {
+        "titre": "Garantie 2 ans",
+        "description": "Pièces et main d'œuvre"
+      },
+      {
+        "titre": "Devis gratuit",
+        "description": "Sans engagement"
+      },
+      {
+        "titre": "SAV réactif",
+        "description": "Intervention rapide"
+      },
+      {
+        "titre": "Normes CE",
+        "description": "Produits certifiés"
+      }
+    ]
+  }
+}

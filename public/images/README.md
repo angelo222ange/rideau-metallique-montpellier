@@ -1,149 +1,258 @@
-# 📸 Guide des Images
+# 📸 Guide des Images - DRM Montpellier
 
-Ce dossier contient toutes les images du site. Voici la structure et les spécifications pour chaque type d'image.
+Ce dossier contient toutes les images du site DRM - Dépannage Rideau Métallique Montpellier. Voici la structure et les spécifications pour chaque type d'image.
 
 ## 📁 Structure des dossiers
 
 ```
 images/
 ├── hero/           → Images principales (bannières)
-├── services/       → Images des services
-├── types/          → Images par type de rideau
-├── zones/          → Images par ville/zone
-├── team/           → Photos de l'équipe
-├── logos/          → Logo et favicon
+├── services/       → Images des 4 services principaux
+├── fabrication/    → Images page fabrication
+├── entretien/      → Images page entretien
+├── motorisation/   → Images page motorisation
+├── contact/        → Images page contact
+├── why-us/         → Images section "Pourquoi nous choisir"
+├── zones/          → Carte et images zones d'intervention
+├── logos/          → Logo DRM et favicon
 ├── icons/          → Icônes personnalisées
 ├── gallery/        → Galerie de réalisations
+├── team/           → Photos de l'équipe
+├── types/          → Images par type de rideau
 └── backgrounds/    → Fonds et textures
 ```
 
-## 🖼️ Spécifications par dossier
+---
 
-### `/hero/` - Images principales
-Images de bannière pour les pages principales.
+## 🖼️ Images par Page
 
-| Fichier | Dimensions | Utilisation |
+### Page Accueil (`/`)
+
+#### `/hero/` - Bannière principale
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `hero-home.webp` | 1920×1080 | Page d'accueil |
-| `hero-depannage.webp` | 1920×800 | Page dépannage |
-| `hero-installation.webp` | 1920×800 | Page installation |
-| `hero-motorisation.webp` | 1920×800 | Page motorisation |
-| `hero-contact.webp` | 1920×600 | Page contact |
+| `hero-depannage-montpellier.webp` | 1920×1080 | Technicien intervenant sur un rideau métallique à Montpellier |
 
-### `/services/` - Images des services
-Une image par service proposé.
-
-| Fichier | Dimensions | Utilisation |
+#### `/services/` - Section Services
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `depannage.webp` | 800×600 | Service dépannage |
-| `installation.webp` | 800×600 | Service installation |
-| `motorisation.webp` | 800×600 | Service motorisation |
-| `entretien.webp` | 800×600 | Service entretien |
-| `reparation.webp` | 800×600 | Service réparation |
-| `deblocage.webp` | 800×600 | Service déblocage |
+| `depannage.webp` | 600×400 | Intervention dépannage urgence |
+| `fabrication.webp` | 600×400 | Atelier fabrication rideau |
+| `entretien.webp` | 600×400 | Technicien maintenance |
+| `motorisation.webp` | 600×400 | Installation moteur |
 
-### `/types/` - Images par type de rideau
-Images illustrant chaque type de rideau métallique.
-
-| Fichier | Dimensions | Utilisation |
+#### `/why-us/` - Section Pourquoi Nous Choisir
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `lames-pleines.webp` | 800×600 | Rideau à lames pleines |
-| `micro-perfore.webp` | 800×600 | Rideau micro-perforé |
-| `tubes-ondules.webp` | 800×600 | Rideau tubes ondulés |
-| `grille.webp` | 800×600 | Grille métallique |
-| `coupe-feu.webp` | 800×600 | Rideau coupe-feu |
-| `porte-garage.webp` | 800×600 | Porte de garage |
+| `expertise.webp` | 800×600 | Expertise locale, équipe expérimentée |
+| `reactivite.webp` | 800×600 | Intervention rapide, véhicule intervention |
 
-### `/zones/` - Images par zone
-Images spécifiques à chaque ville/arrondissement (optionnel).
-
-| Fichier | Dimensions | Utilisation |
+#### `/zones/` - Section Zones d'Intervention
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `paris-1.webp` | 800×600 | Page Paris 1er |
-| `paris-11.webp` | 800×600 | Page Paris 11e |
-| `neuilly.webp` | 800×600 | Page Neuilly |
-| ... | | |
+| `carte-montpellier.webp` | 800×800 | Carte stylisée Montpellier + agglomération |
 
-### `/team/` - Photos d'équipe
-Photos des techniciens/équipe.
+---
 
-| Fichier | Dimensions | Utilisation |
+### Page Fabrication (`/fabrication`)
+
+#### `/fabrication/` - Toutes les images fabrication
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `team-1.webp` | 400×400 | Photo technicien 1 |
-| `team-2.webp` | 400×400 | Photo technicien 2 |
-| `equipe.webp` | 1200×800 | Photo de groupe |
-| `vehicule.webp` | 800×600 | Véhicule d'intervention |
+| `hero-fabrication.webp` | 1920×1080 | Bannière atelier fabrication |
+| `lames-pleines.webp` | 600×400 | Rideau à lames pleines |
+| `micro-perfore.webp` | 600×400 | Rideau micro-perforé |
+| `grille.webp` | 600×400 | Grille métallique articulée |
+| `coupe-feu.webp` | 600×400 | Rideau coupe-feu certifié |
+| `acier-galvanise.webp` | 400×300 | Matériau acier galvanisé |
+| `aluminium.webp` | 400×300 | Matériau aluminium |
+| `inox.webp` | 400×300 | Matériau acier inoxydable |
 
-### `/logos/` - Logos et favicon
-Logo de l'entreprise en différents formats.
+---
 
-| Fichier | Dimensions | Utilisation |
+### Page Entretien (`/entretien`)
+
+#### `/entretien/` - Toutes les images entretien
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `logo.png` | 400×100 | Logo principal (header) |
-| `logo-white.png` | 400×100 | Logo blanc (footer sombre) |
-| `logo-icon.png` | 100×100 | Icône seule |
+| `hero-entretien.webp` | 1920×1080 | Bannière maintenance préventive |
+| `duree-vie.webp` | 800×600 | Rideau en bon état grâce à l'entretien |
+| `economies.webp` | 800×600 | Technicien effectuant diagnostic |
+| `securite.webp` | 800×600 | Vérification sécurité |
+| `conformite.webp` | 800×600 | Contrôle normes et conformité |
+| `checklist.webp` | 600×400 | Check-list maintenance |
+
+---
+
+### Page Motorisation (`/motorisation`)
+
+#### `/motorisation/` - Toutes les images motorisation
+| Fichier | Dimensions | Description |
+|---------|------------|-------------|
+| `hero-motorisation.webp` | 1920×1080 | Bannière automatisation rideau |
+| `confort.webp` | 800×600 | Utilisateur avec télécommande |
+| `temps.webp` | 800×600 | Ouverture rapide automatique |
+| `securite.webp` | 800×600 | Détecteur d'obstacle en action |
+| `longevite.webp` | 800×600 | Moteur installé proprement |
+| `moteur-tubulaire.webp` | 600×400 | Moteur tubulaire |
+| `moteur-central.webp` | 600×400 | Moteur central |
+| `moteur-lateral.webp` | 600×400 | Moteur latéral |
+| `telecommande.webp` | 300×300 | Télécommande 4 canaux |
+| `clavier-code.webp` | 300×300 | Clavier à code |
+| `detecteur.webp` | 300×300 | Détecteur d'obstacle |
+| `batterie.webp` | 300×300 | Batterie de secours |
+
+---
+
+### Page Contact (`/contact`)
+
+#### `/contact/` - Images page contact
+| Fichier | Dimensions | Description |
+|---------|------------|-------------|
+| `facade-local.webp` | 800×600 | Façade du local DRM (15 Rue Marceau) |
+| `equipe.webp` | 800×600 | Photo d'équipe (optionnel) |
+
+---
+
+### Images Globales
+
+#### `/logos/` - Logo et branding
+| Fichier | Dimensions | Description |
+|---------|------------|-------------|
+| `logo-drm-montpellier.webp` | 200×60 | Logo principal DRM |
+| `logo-white.webp` | 200×60 | Logo blanc pour footer sombre |
 | `favicon.ico` | 32×32 | Favicon navigateur |
 | `apple-touch-icon.png` | 180×180 | Icône iOS |
 | `og-image.jpg` | 1200×630 | Image partage réseaux sociaux |
 
-### `/icons/` - Icônes personnalisées
-Icônes PNG personnalisées.
-
-| Fichier | Dimensions | Utilisation |
+#### `/icons/` - Icônes personnalisées (optionnel)
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
 | `icon-rideau.png` | 64×64 | Icône rideau métallique |
 | `icon-moteur.png` | 64×64 | Icône moteur |
-| `icon-phone.png` | 64×64 | Icône téléphone |
-| `icon-clock.png` | 64×64 | Icône horaires |
+| `icon-outils.png` | 64×64 | Icône outils |
+| `icon-garantie.png` | 64×64 | Icône garantie |
 
-### `/gallery/` - Galerie de réalisations
-Photos de chantiers et réalisations.
-
-| Fichier | Dimensions | Utilisation |
+#### `/gallery/` - Galerie réalisations (optionnel)
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
-| `realisation-1.webp` | 800×600 | Photo installation |
-| `realisation-2.webp` | 800×600 | Photo dépannage |
-| `avant-apres-1.webp` | 1600×600 | Avant/après |
+| `realisation-1.webp` | 800×600 | Installation commerce |
+| `realisation-2.webp` | 800×600 | Dépannage garage |
+| `realisation-3.webp` | 800×600 | Motorisation entrepôt |
+| `avant-apres-1.webp` | 1200×600 | Comparatif avant/après |
 
-### `/backgrounds/` - Fonds et textures
-Images de fond pour les sections.
+#### `/team/` - Photos équipe (optionnel)
+| Fichier | Dimensions | Description |
+|---------|------------|-------------|
+| `technicien-1.webp` | 400×400 | Photo technicien |
+| `technicien-2.webp` | 400×400 | Photo technicien |
+| `vehicule.webp` | 800×600 | Véhicule d'intervention |
 
-| Fichier | Dimensions | Utilisation |
+#### `/backgrounds/` - Fonds et textures (optionnel)
+| Fichier | Dimensions | Description |
 |---------|------------|-------------|
 | `pattern-metal.png` | 200×200 | Motif métallique répétable |
 | `texture-industrial.webp` | 1920×1080 | Texture industrielle |
 
-## ⚙️ Recommandations techniques
+---
 
-### Format
-- **WebP** : Format recommandé (meilleure compression)
-- **PNG** : Pour les logos et icônes (fond transparent)
-- **JPG** : Pour les photos sans transparence
+## ⚙️ Spécifications Techniques
+
+### Formats Recommandés
+- **WebP** : Format principal (meilleure compression, qualité optimale)
+- **PNG** : Pour logos et icônes avec transparence
+- **JPG** : Alternative pour photos sans transparence
 
 ### Optimisation
-- Compresser les images avant upload
-- Outils : [Squoosh](https://squoosh.app/), [TinyPNG](https://tinypng.com/)
-- Viser < 100KB par image si possible
+Compresser toutes les images avant upload :
+- **Outils** : [Squoosh](https://squoosh.app/), [TinyPNG](https://tinypng.com/)
+- **Objectif** : < 100KB par image si possible
+- **Qualité** : 80-85% pour WebP/JPG
 
 ### Nommage
-- Utiliser des noms descriptifs en minuscules
-- Séparer les mots par des tirets : `lames-pleines.webp`
-- Éviter les accents et caractères spéciaux
+- Noms en minuscules avec tirets : `hero-fabrication.webp`
+- Pas d'accents ni caractères spéciaux
+- Noms descriptifs
 
-## 🔄 Remplacement des images
+---
 
-Pour remplacer une image :
-1. Garder exactement le même nom de fichier
-2. Respecter les dimensions recommandées
-3. Le site utilisera automatiquement la nouvelle image
+## ⚠️ Images Prioritaires (obligatoires)
 
-## ⚠️ Images obligatoires
+Ces images sont les plus importantes pour le site :
 
-Ces images doivent être présentes pour éviter les erreurs :
+### Haute Priorité ⭐⭐⭐
+| Image | Chemin | Impact |
+|-------|--------|--------|
+| Logo | `/logos/logo-drm-montpellier.webp` | Header toutes pages |
+| Hero Accueil | `/hero/hero-depannage-montpellier.webp` | Première impression |
+| OG Image | `/logos/og-image.jpg` | Partage réseaux sociaux |
 
-- [ ] `logos/logo.png` - Logo principal
-- [ ] `hero/hero-home.webp` - Bannière accueil
-- [ ] `logos/og-image.jpg` - Image réseaux sociaux
+### Moyenne Priorité ⭐⭐
+| Image | Chemin | Impact |
+|-------|--------|--------|
+| Services (×4) | `/services/*.webp` | Page accueil |
+| Why Us (×2) | `/why-us/*.webp` | Crédibilité accueil |
+| Hero Fabrication | `/fabrication/hero-fabrication.webp` | Page fabrication |
+| Hero Entretien | `/entretien/hero-entretien.webp` | Page entretien |
+| Hero Motorisation | `/motorisation/hero-motorisation.webp` | Page motorisation |
 
-Les autres images sont optionnelles (des placeholders peuvent être utilisés).
+### Priorité Normale ⭐
+Toutes les autres images (les placeholders stylisés fonctionnent en attendant).
 
+---
+
+## 🔄 Remplacement des Images
+
+Pour remplacer une image placeholder :
+1. **Garder le même nom de fichier** exact
+2. **Respecter les dimensions** recommandées (sinon redimensionner)
+3. **Compresser l'image** avant upload
+4. Le site utilisera automatiquement la nouvelle image
+
+---
+
+## 📍 Contexte Montpellier
+
+Pour une cohérence visuelle avec l'identité du site :
+
+### Ambiance Recommandée
+- **Style** : Professionnel, moderne, méditerranéen
+- **Couleurs** : Privilégier des photos avec tons bleus et terracotta
+- **Lumière** : Éclairage naturel, lumineux
+
+### Sujets Photos
+- Rideaux métalliques de commerces montpelliérains
+- Interventions sur place dans le centre-ville
+- Équipe en tenue professionnelle
+- Véhicule d'intervention siglé
+
+### À Éviter
+- Photos trop sombres ou mal cadrées
+- Images génériques de banque d'images trop reconnaissables
+- Photos sans rapport avec le secteur rideau métallique
+
+---
+
+## 📊 Récapitulatif Dimensions
+
+| Catégorie | Dimensions | Usage |
+|-----------|------------|-------|
+| Hero/Bannière | 1920×1080 | Pleine largeur page |
+| Section alternée | 800×600 | Texte/Image côte à côte |
+| Cards services | 600×400 | Cards grille |
+| Accessoires | 300×300 | Petites vignettes |
+| Logo | 200×60 | Header |
+| OG Image | 1200×630 | Réseaux sociaux |
+| Favicon | 32×32 | Onglet navigateur |
+
+---
+
+## 💡 Note sur les Placeholders
+
+En attendant les vraies images, le site utilise le composant `ImagePlaceholder` qui affiche :
+- Un gradient aux couleurs de la charte (bleu méditerranée)
+- Une icône représentative du contenu
+- Les dimensions attendues
+- Un badge "Image à venir"
+
+Les placeholders s'intègrent parfaitement au design et le site est 100% fonctionnel sans les images réelles.

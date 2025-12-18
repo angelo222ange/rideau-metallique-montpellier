@@ -1,0 +1,101 @@
+{
+  "id": "signes-usure",
+  "title": "Quand Faire Entretenir Votre Rideau Métallique",
+  "titleHighlight": "à Montpellier ?",
+  "subtitle": "Votre rideau métallique vous envoie des signaux qu'il ne faut pas ignorer. Apprenez à reconnaître les 8 signes d'usure qui indiquent qu'une maintenance est nécessaire pour éviter une panne coûteuse.",
+  "badge": {
+    "text": "Diagnostic gratuit",
+    "icon": "search"
+  },
+  "signs": [
+    {
+      "id": "bruit-anormal",
+      "icon": "volume",
+      "title": "Bruit anormal à la manœuvre",
+      "description": "Grincements, claquements ou vibrations lors de l'ouverture ou fermeture de votre rideau.",
+      "consequence": "Usure accélérée des composants, risque de blocage imminent",
+      "solution": "Graissage des glissières et vérification des lames",
+      "urgency": "medium"
+    },
+    {
+      "id": "lenteur",
+      "icon": "turtle",
+      "title": "Lenteur inhabituelle",
+      "description": "Le rideau met plus de temps qu'avant pour s'ouvrir ou se fermer complètement.",
+      "consequence": "Moteur fatigué, condensateur défaillant ou problème mécanique",
+      "solution": "Diagnostic moteur et réglage de la tension",
+      "urgency": "medium"
+    },
+    {
+      "id": "blocage-partiel",
+      "icon": "pause",
+      "title": "Blocage partiel ou saccades",
+      "description": "Le rideau s'arrête à mi-course ou avance par à-coups au lieu d'un mouvement fluide.",
+      "consequence": "Fin de course déréglée ou encrassement des glissières",
+      "solution": "Réglage des butées et nettoyage complet",
+      "urgency": "high"
+    },
+    {
+      "id": "rouille",
+      "icon": "rust",
+      "title": "Rouille visible",
+      "description": "Points de corrosion sur les lames, les coulisses ou le coffre du rideau.",
+      "consequence": "Affaiblissement structurel, perte d'étanchéité",
+      "solution": "Traitement anti-corrosion et peinture protectrice",
+      "urgency": "medium"
+    },
+    {
+      "id": "jeu-glissieres",
+      "icon": "arrows",
+      "title": "Jeu dans les glissières",
+      "description": "Le tablier du rideau bouge latéralement, il n'est plus parfaitement guidé.",
+      "consequence": "Déraillement possible, usure asymétrique des lames",
+      "solution": "Réglage ou remplacement des guides latéraux",
+      "urgency": "high"
+    },
+    {
+      "id": "telecommande",
+      "icon": "remote",
+      "title": "Télécommande capricieuse",
+      "description": "Il faut appuyer plusieurs fois ou se rapprocher pour que le rideau réagisse.",
+      "consequence": "Piles faibles, récepteur encrassé ou interférences",
+      "solution": "Changement piles, vérification récepteur",
+      "urgency": "low"
+    },
+    {
+      "id": "eclairage-defaillant",
+      "icon": "lightbulb",
+      "title": "Voyants défaillants",
+      "description": "Les voyants lumineux du boîtier de commande clignotent anormalement ou ne s'allument plus.",
+      "consequence": "Problème électrique, carte électronique à vérifier",
+      "solution": "Diagnostic électronique complet",
+      "urgency": "medium"
+    },
+    {
+      "id": "fermeture-incomplete",
+      "icon": "gap",
+      "title": "Fermeture incomplète",
+      "description": "Un espace reste visible entre le sol et le bas du rideau une fois fermé.",
+      "consequence": "Sécurité compromise, courants d'air, intrusion facilitée",
+      "solution": "Réglage lame finale ou remplacement joint bas",
+      "urgency": "high"
+    }
+  ],
+  "urgencyLevels": {
+    "low": { "label": "À surveiller", "color": "green" },
+    "medium": { "label": "Intervention conseillée", "color": "yellow" },
+    "high": { "label": "Intervention urgente", "color": "red" }
+  },
+  "cta": {
+    "title": "Un de ces signes sur votre rideau ?",
+    "text": "Diagnostic gratuit",
+    "subtext": "Nos techniciens se déplacent à Montpellier et dans le 34",
+    "href": "tel:+33411937676"
+  },
+  "localSeo": {
+    "intro": "Signes d'usure et symptômes de panne sur rideau métallique à Montpellier (34000) et dans l'Hérault.",
+    "expertise": "Nos techniciens expérimentés identifient rapidement les problèmes sur votre rideau métallique et proposent les solutions adaptées.",
+    "coverage": "Diagnostic gratuit à domicile dans tout Montpellier, Castelnau-le-Lez, Lattes, Pérols et les communes de l'agglomération."
+  }
+}
+

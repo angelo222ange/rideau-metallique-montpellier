@@ -1,0 +1,149 @@
+{
+  "id": "comparatif",
+  "badge": {
+    "text": "Comparatif Complet",
+    "icon": "scale"
+  },
+  "title": "Rideau Métallique Manuel ou Motorisé",
+  "titleHighlight": "Le Guide Complet",
+  "subtitle": "Vous hésitez entre un rideau manuel ou motorisé pour votre commerce à Montpellier ? Découvrez notre analyse complète pour faire le bon choix selon votre activité dans le 34.",
+  "description": "La motorisation d'un rideau métallique représente un investissement qui peut transformer votre quotidien de commerçant héraultais. Mais est-ce vraiment adapté à votre situation ? Notre expertise dans l'agglomération montpelliéraine nous permet de vous guider.",
+  
+  "manuel": {
+    "title": "Rideau Manuel",
+    "subtitle": "La solution économique",
+    "icon": "hand",
+    "image": "/images/motorisation/rideau-manuel.webp",
+    "prix": "800€ - 1 500€",
+    "avantages": [
+      "Coût d'achat réduit",
+      "Pas de dépendance électrique",
+      "Entretien simplifié",
+      "Fonctionnement en cas de coupure"
+    ],
+    "inconvenients": [
+      "Effort physique quotidien",
+      "Manipulation longue (30-60 sec)",
+      "Usure accélérée des composants",
+      "Risque de blessure dorsale"
+    ],
+    "pourQui": [
+      "Petits rideaux (<8m²)",
+      "Usage occasionnel",
+      "Budget serré",
+      "Locaux sans électricité"
+    ]
+  },
+  
+  "motorise": {
+    "title": "Rideau Motorisé",
+    "subtitle": "Le confort au quotidien",
+    "icon": "bolt",
+    "image": "/images/motorisation/rideau-motorise.webp",
+    "prix": "1 500€ - 3 500€",
+    "avantages": [
+      "Ouverture en 1 clic (5 sec)",
+      "Zéro effort physique",
+      "Sécurité renforcée",
+      "Durée de vie allongée"
+    ],
+    "inconvenients": [
+      "Investissement initial plus élevé",
+      "Nécessite alimentation électrique",
+      "Entretien moteur périodique",
+      "Dépendance en cas de panne"
+    ],
+    "pourQui": [
+      "Commerces avec ouvertures fréquentes",
+      "Rideaux grande dimension (>8m²)",
+      "Personnes à mobilité réduite",
+      "Recherche de confort et sécurité"
+    ]
+  },
+  
+  "criteres": [
+    {
+      "id": "confort",
+      "label": "Confort d'utilisation",
+      "manuel": 2,
+      "motorise": 5,
+      "description": "Le motorisé offre un confort incomparable au quotidien"
+    },
+    {
+      "id": "securite",
+      "label": "Niveau de sécurité",
+      "manuel": 3,
+      "motorise": 5,
+      "description": "Verrouillage automatique et anti-relevage intégré"
+    },
+    {
+      "id": "durabilite",
+      "label": "Durabilité",
+      "manuel": 3,
+      "motorise": 4,
+      "description": "Moins d'usure grâce à un mouvement régulier et contrôlé"
+    },
+    {
+      "id": "cout",
+      "label": "Coût initial",
+      "manuel": 5,
+      "motorise": 3,
+      "description": "Le manuel reste moins cher à l'achat"
+    },
+    {
+      "id": "maintenance",
+      "label": "Facilité d'entretien",
+      "manuel": 4,
+      "motorise": 3,
+      "description": "Le manuel nécessite moins de maintenance technique"
+    },
+    {
+      "id": "rapidite",
+      "label": "Rapidité d'ouverture",
+      "manuel": 2,
+      "motorise": 5,
+      "description": "5 secondes vs 30-60 secondes"
+    }
+  ],
+  
+  "economieTemps": {
+    "title": "Simulation : Économie de Temps Quotidienne",
+    "description": "Pour un commerce ouvrant 2 fois par jour (matin et soir)",
+    "manuel": {
+      "tempsOuverture": "45 secondes",
+      "tempsFermeture": "45 secondes",
+      "totalJour": "3 minutes",
+      "totalAn": "18 heures/an"
+    },
+    "motorise": {
+      "tempsOuverture": "5 secondes",
+      "tempsFermeture": "5 secondes",
+      "totalJour": "20 secondes",
+      "totalAn": "2 heures/an"
+    },
+    "economie": "16 heures/an récupérées"
+  },
+  
+  "verdict": {
+    "title": "Notre Verdict d'Expert",
+    "description": "Après 15 ans d'expérience dans l'Hérault et plus de 5 000 installations à Montpellier, nous recommandons systématiquement la motorisation pour les commerces à usage intensif (plus de 2 ouvertures/jour) ou les rideaux dépassant 8m².",
+    "highlight": "La motorisation s'amortit généralement en 2-3 ans grâce aux économies de temps et à la réduction de l'usure."
+  },
+  
+  "cta": {
+    "title": "Besoin d'un conseil personnalisé ?",
+    "description": "Nos experts DRM se déplacent gratuitement à Montpellier et dans tout le 34 pour évaluer vos besoins.",
+    "buttonText": "Demander un diagnostic gratuit"
+  },
+  
+  "seo": {
+    "keywords": [
+      "rideau métallique manuel ou motorisé",
+      "comparatif motorisation rideau",
+      "avantages rideau motorisé Montpellier",
+      "prix motorisation rideau métallique 34",
+      "différence manuel électrique rideau"
+    ]
+  }
+}
+

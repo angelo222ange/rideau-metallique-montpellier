@@ -1,0 +1,17 @@
+# Robots.txt pour DRM Montpellier
+# https://depannage-rideau-metallique-montpellier.fr
+
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+
+# Pages à ne pas indexer
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://depannage-rideau-metallique-montpellier.fr/sitemap.xml
+
+# Délai de crawl pour éviter la surcharge
+Crawl-delay: 1
+

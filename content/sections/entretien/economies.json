@@ -1,0 +1,108 @@
+{
+  "id": "economies",
+  "title": "Entretien Préventif",
+  "titleHighlight": "Économisez jusqu'à 70% sur les Réparations",
+  "subtitle": "L'entretien régulier de votre rideau métallique n'est pas une dépense, c'est un investissement. Découvrez combien vous pouvez économiser en adoptant une maintenance préventive plutôt que curative.",
+  "badge": {
+    "text": "Rentabilité prouvée",
+    "icon": "piggy-bank"
+  },
+  "comparison": {
+    "title": "Comparatif sur 5 ans",
+    "withMaintenance": {
+      "label": "Avec entretien préventif",
+      "icon": "check-circle",
+      "color": "green",
+      "items": [
+        { "label": "Contrat annuel", "cost": 150, "frequency": "x5", "total": 750 },
+        { "label": "Petites réparations", "cost": 100, "frequency": "x2", "total": 200 },
+        { "label": "Durée de vie", "value": "20-25 ans" }
+      ],
+      "totalCost": 950,
+      "highlight": "Économie de 2 050€"
+    },
+    "withoutMaintenance": {
+      "label": "Sans entretien",
+      "icon": "x-circle",
+      "color": "red",
+      "items": [
+        { "label": "Dépannage urgence", "cost": 350, "frequency": "x3", "total": 1050 },
+        { "label": "Remplacement moteur", "cost": 800, "frequency": "x1", "total": 800 },
+        { "label": "Réparations diverses", "cost": 450, "frequency": "x2", "total": 900 },
+        { "label": "Remplacement prématuré", "cost": 250, "frequency": "x1", "total": 250 }
+      ],
+      "totalCost": 3000,
+      "durability": "10-12 ans"
+    }
+  },
+  "stats": [
+    {
+      "value": "70",
+      "unit": "%",
+      "label": "Réduction des pannes",
+      "description": "avec un entretien régulier"
+    },
+    {
+      "value": "2x",
+      "unit": "",
+      "label": "Durée de vie doublée",
+      "description": "15 ans vs 7 ans sans entretien"
+    },
+    {
+      "value": "50",
+      "unit": "%",
+      "label": "Coûts réduits",
+      "description": "sur les réparations totales"
+    },
+    {
+      "value": "24h",
+      "unit": "",
+      "label": "Intervention prioritaire",
+      "description": "pour les clients sous contrat"
+    }
+  ],
+  "roi": {
+    "title": "Retour sur investissement",
+    "description": "Un contrat d'entretien à 150€/an vous fait économiser en moyenne 400€/an en réparations évitées.",
+    "calculation": {
+      "investmentPerYear": 150,
+      "savingsPerYear": 400,
+      "roi": "267%"
+    }
+  },
+  "durability": {
+    "title": "Impact sur la durée de vie",
+    "withMaintenance": {
+      "years": 25,
+      "label": "Avec entretien"
+    },
+    "withoutMaintenance": {
+      "years": 12,
+      "label": "Sans entretien"
+    },
+    "difference": "+13 ans"
+  },
+  "testimonial": {
+    "quote": "Depuis que j'ai souscrit le contrat Confort, je n'ai plus eu aucune panne. Avant, je dépensais au moins 500€ par an en dépannages. Le contrat à 199€ est largement rentabilisé !",
+    "author": "Philippe R.",
+    "role": "Gérant garage automobile, Port Marianne",
+    "savings": "300€/an économisés"
+  },
+  "cta": {
+    "title": "Commencez à économiser dès maintenant",
+    "primary": {
+      "text": "Voir nos contrats",
+      "href": "#contrats"
+    },
+    "secondary": {
+      "text": "Appeler un conseiller",
+      "href": "tel:+33411937676"
+    }
+  },
+  "localSeo": {
+    "intro": "Économies réalisées grâce à l'entretien préventif de rideau métallique à Montpellier (34000).",
+    "expertise": "DRM Montpellier propose des contrats de maintenance adaptés à tous les budgets pour les commerces et professionnels de l'Hérault.",
+    "benefit": "Réduisez vos coûts de réparation et prolongez la durée de vie de votre rideau métallique avec nos formules d'entretien annuel dans le 34."
+  }
+}
+

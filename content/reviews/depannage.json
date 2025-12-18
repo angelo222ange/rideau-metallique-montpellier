@@ -1,0 +1,111 @@
+[
+  {
+    "id": "dep-1",
+    "name": "Roch Mireault",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Première fois que j'avais besoin d'un dépannage pour ce type d'équipement. DRM Montpellier a su me mettre en confiance, a pris le temps d'expliquer clairement, et le travail a été fait rapidement et proprement.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-blue-600"
+  },
+  {
+    "id": "dep-2",
+    "name": "Florian Solet",
+    "rating": 5,
+    "date": "il y a 2 mois",
+    "text": "J'ai contacté DRM - Depannage Rideau Métallique à Castelnau-le-Lez pour réparer mon rideau métallique. Dès le premier appel, j'ai été agréablement surpris par leur réactivité et leur professionnalisme.",
+    "visitDate": "septembre",
+    "isNew": false,
+    "avatarType": "letter",
+    "avatarColor": "bg-purple-500"
+  },
+  {
+    "id": "dep-3",
+    "name": "Fletcher Bonsaint",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "drm montpellier est intervenu suite à une tentative d'effraction. Le rideau avait été forcé. Ils ont sécurisé le tout provisoirement, puis remplacé les pièces deux jours plus tard. Pas d'abus, juste ce qu'il fallait.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-teal-500"
+  },
+  {
+    "id": "dep-4",
+    "name": "Gabriel Bonnet",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "J'ai eu un souci avec mon rideau métallique bloqué en position basse, une vrai galère pour mon commerce. Sans perdre de temps, j'ai contacté l'entreprise DRM en urgence et ils sont venus rapidement.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-orange-400 to-red-500"
+  },
+  {
+    "id": "dep-5",
+    "name": "Thibaut Lussier",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Un des rares dépanneurs à décrocher un dimanche après-midi. Le rideau bloqué sur la moitié m'empêchait de fermer complètement. La personne est arrivée avec le bon matériel. Résultat nickel, merci encore.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-indigo-500"
+  },
+  {
+    "id": "dep-6",
+    "name": "Archard Authier",
+    "rating": 5,
+    "date": "il y a 5 jours",
+    "text": "Appel pour un rideau bloqué dans un local à Juvignac. Le technicien est arrivé à l'heure, a réparé rapidement et efficacement. Intervention terminée en moins d'une heure. Très satisfait du résultat.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-cyan-400 to-blue-500"
+  },
+  {
+    "id": "dep-7",
+    "name": "Benoît Clément",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Rideau bloqué au dépôt de Castelnau-le-Lez, réparation dans la journée. drm montpellier a été efficace et surtout ponctuel, ce qui est rare. Pas de tentative de vendre autre chose, juste une solution claire et rapide au problème.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "icon"
+  },
+  {
+    "id": "dep-8",
+    "name": "Somerville Ruais",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Le rideau faisait un bruit étrange depuis quelques jours, puis il est resté coincé. L'équipe s'est déplacée jusqu'à Saint-Jean-de-Védas. La réparation a été rapide et les explications claires. Pro jusqu'au bout 👍",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-rose-500"
+  },
+  {
+    "id": "dep-9",
+    "name": "Serge Legono",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Une panne un samedi matin, juste avant l'ouverture. J'ai eu peur d'être bloqué tout le week-end. Heureusement, quelqu'un s'est déplacé et a tout remis en route. Ça fonctionne bien depuis, sans bruit ni à-coup. Intervention propre.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "dep-10",
+    "name": "Campbell Givry",
+    "rating": 5,
+    "date": "il y a un jour",
+    "text": "Le rideau du local à Pérols s'est arrêté en plein milieu. L'intervention a été rapide, le technicien a démonté la partie défectueuse, changé une pièce et tout fonctionne. Apprécié l'efficacité sans bavardage.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-violet-400 to-purple-600"
+  }
+]
+

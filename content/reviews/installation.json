@@ -1,0 +1,85 @@
+[
+  {
+    "id": "inst-1",
+    "name": "Pierre M.",
+    "rating": 5,
+    "date": "il y a 1 mois",
+    "text": "DRM a installé un rideau métallique micro-perforé pour ma boulangerie dans l'Écusson. Travail impeccable, les techniciens sont arrivés à l'heure et ont terminé en une demi-journée. Le rideau fonctionne parfaitement et on voit bien la vitrine même fermé.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-blue-600"
+  },
+  {
+    "id": "inst-2",
+    "name": "Sophie L.",
+    "rating": 5,
+    "date": "il y a 2 mois",
+    "text": "J'avais besoin d'un rideau qui ne dénature pas ma devanture de boutique. L'équipe m'a conseillé un modèle micro-perforé gris anthracite. L'installation s'est faite un lundi avant l'ouverture, aucune perturbation pour mon activité. Résultat top !",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "gradient"
+  },
+  {
+    "id": "inst-3",
+    "name": "Jean-Claude D.",
+    "rating": 5,
+    "date": "il y a 3 mois",
+    "text": "Installation d'un rideau métallique de 6m x 4m pour notre entrepôt à Lattes. Le devis était clair, l'équipe compétente. Motorisation puissante, le rideau monte et descend sans effort. Très satisfait du rapport qualité-prix.",
+    "visitDate": "septembre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "inst-4",
+    "name": "Marie-France B.",
+    "rating": 5,
+    "date": "il y a 4 mois",
+    "text": "Suite à une tentative de cambriolage, j'ai fait installer un rideau à lames pleines renforcé. DRM m'a proposé un modèle anti-effraction avec serrure haute sécurité. L'installation a été rapide et soignée. Je me sens enfin en sécurité.",
+    "visitDate": "août",
+    "isNew": false,
+    "avatarType": "icon"
+  },
+  {
+    "id": "inst-5",
+    "name": "Laurent T.",
+    "rating": 5,
+    "date": "il y a 5 mois",
+    "text": "Nous avons fait poser un rideau métallique pour sécuriser notre terrasse la nuit. L'équipe a bien géré les contraintes (passage de câbles, intégration au bâti existant). Pose propre, pas de dégâts. Fonctionne impeccablement depuis 6 mois.",
+    "visitDate": "juillet",
+    "isNew": false,
+    "avatarType": "letter",
+    "avatarColor": "bg-green-600"
+  },
+  {
+    "id": "inst-6",
+    "name": "Ahmed K.",
+    "rating": 5,
+    "date": "il y a 6 mois",
+    "text": "DRM a installé deux grands rideaux métalliques pour mon garage automobile. Devis compétitif, délai respecté, installation soignée. Les techniciens m'ont formé à l'utilisation des télécommandes et à l'entretien basique. Très pro.",
+    "visitDate": "juin",
+    "isNew": false,
+    "avatarType": "gradient"
+  },
+  {
+    "id": "inst-7",
+    "name": "Nathalie R.",
+    "rating": 5,
+    "date": "il y a 7 mois",
+    "text": "Pour ma bijouterie, j'avais besoin d'une protection maximale. DRM m'a installé un rideau à lames pleines certifié anti-effraction avec système d'alarme intégré. Installation professionnelle, équipe à l'écoute.",
+    "visitDate": "mai",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "inst-8",
+    "name": "François G.",
+    "rating": 4,
+    "date": "il y a 8 mois",
+    "text": "Installation d'un rideau métallique pour ma superette. Le rideau est de très bonne qualité et la pose impeccable. Seul petit bémol : le rideau a été livré avec 3 jours de retard par rapport au planning initial. Sinon RAS.",
+    "visitDate": "avril",
+    "isNew": false,
+    "avatarType": "letter",
+    "avatarColor": "bg-orange-600"
+  }
+]

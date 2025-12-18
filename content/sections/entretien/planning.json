@@ -1,0 +1,131 @@
+{
+  "id": "planning",
+  "title": "Calendrier d'Entretien Rideau Métallique",
+  "titleHighlight": "Bonnes Pratiques",
+  "subtitle": "Un entretien régulier prolonge la durée de vie de votre rideau métallique et prévient les pannes coûteuses. Voici le planning recommandé par nos experts pour maintenir votre équipement en parfait état.",
+  "badge": {
+    "text": "Planning recommandé",
+    "icon": "calendar"
+  },
+  "periods": [
+    {
+      "id": "mensuel",
+      "frequency": "Mensuel",
+      "icon": "calendar-month",
+      "color": "primary",
+      "whoCanDo": "Vous-même",
+      "tasks": [
+        {
+          "title": "Inspection visuelle",
+          "description": "Vérifier l'état général des lames, des guides et du coffre"
+        },
+        {
+          "title": "Nettoyage des lames",
+          "description": "Dépoussiérage et nettoyage avec un chiffon humide"
+        },
+        {
+          "title": "Test de fonctionnement",
+          "description": "Ouvrir/fermer complètement et écouter les bruits anormaux"
+        }
+      ],
+      "duration": "15 min",
+      "benefit": "Détection précoce des problèmes"
+    },
+    {
+      "id": "trimestriel",
+      "frequency": "Trimestriel",
+      "icon": "calendar-quarter",
+      "color": "accent",
+      "whoCanDo": "Vous-même ou technicien",
+      "tasks": [
+        {
+          "title": "Lubrification glissières",
+          "description": "Appliquer un lubrifiant silicone sur les rails de guidage"
+        },
+        {
+          "title": "Nettoyage capteurs",
+          "description": "Nettoyer les cellules photoélectriques si motorisé"
+        },
+        {
+          "title": "Vérification serrure",
+          "description": "Lubrifier le cylindre et vérifier le bon fonctionnement"
+        }
+      ],
+      "duration": "30 min",
+      "benefit": "Fluidité de manœuvre optimale"
+    },
+    {
+      "id": "semestriel",
+      "frequency": "Semestriel",
+      "icon": "calendar-half",
+      "color": "secondary",
+      "whoCanDo": "Technicien recommandé",
+      "tasks": [
+        {
+          "title": "Contrôle des sécurités",
+          "description": "Vérification du système anti-chute et des fins de course"
+        },
+        {
+          "title": "Tension ressorts/sangles",
+          "description": "Ajustement de la tension pour un équilibre parfait"
+        },
+        {
+          "title": "Inspection motorisation",
+          "description": "Contrôle moteur, condensateur et câblage électrique"
+        }
+      ],
+      "duration": "1h",
+      "benefit": "Sécurité et performance garanties"
+    },
+    {
+      "id": "annuel",
+      "frequency": "Annuel",
+      "icon": "calendar-year",
+      "color": "green",
+      "whoCanDo": "Technicien professionnel",
+      "tasks": [
+        {
+          "title": "Révision complète",
+          "description": "Inspection exhaustive de tous les composants mécaniques"
+        },
+        {
+          "title": "Remplacement préventif",
+          "description": "Changement des pièces d'usure avant défaillance"
+        },
+        {
+          "title": "Rapport d'intervention",
+          "description": "Document détaillé avec recommandations"
+        },
+        {
+          "title": "Mise aux normes",
+          "description": "Vérification conformité réglementaire (ERP)"
+        }
+      ],
+      "duration": "2h",
+      "benefit": "Garantie durée de vie maximale"
+    }
+  ],
+  "tips": [
+    {
+      "icon": "lightbulb",
+      "title": "Astuce Pro",
+      "text": "Tenez un carnet d'entretien avec les dates d'intervention pour suivre la vie de votre rideau."
+    },
+    {
+      "icon": "warning",
+      "title": "À éviter",
+      "text": "N'utilisez jamais de WD-40 ou de graisse épaisse sur les glissières, préférez le lubrifiant silicone."
+    }
+  ],
+  "cta": {
+    "title": "Besoin d'un professionnel pour l'entretien ?",
+    "text": "Souscrire un contrat",
+    "href": "#contrats"
+  },
+  "localSeo": {
+    "intro": "Planning d'entretien recommandé pour rideau métallique à Montpellier (34000) et dans le département de l'Hérault.",
+    "expertise": "Nos techniciens certifiés réalisent les visites d'entretien semestrielles et annuelles pour garantir le bon fonctionnement de votre rideau.",
+    "coverage": "Contrats de maintenance disponibles pour Montpellier, Castelnau-le-Lez, Lattes, Pérols, Saint-Jean-de-Védas et toute l'agglomération."
+  }
+}
+

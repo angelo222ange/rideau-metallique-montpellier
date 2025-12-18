@@ -1,40 +1,170 @@
 {
   "hero": {
-    "badge": "🏗️ Installation professionnelle",
+    "badge": "Installateur certifié",
     "title": "Installation Rideau Métallique {city}",
-    "subtitle": "Pose de rideaux métalliques pour commerces, entrepôts et locaux professionnels. Devis gratuit et installation soignée."
+    "subtitle": "Expert en <strong>pose de rideaux métalliques</strong> pour commerces, boutiques, entrepôts et locaux professionnels. <strong>Installation professionnelle</strong> avec garantie 2 ans, mise en service et formation à l'utilisation incluses."
   },
-  "certifications": [
-    { "icon": "🏭", "label": "Toutes marques" },
-    { "icon": "✅", "label": "Garantie 2 ans" },
-    { "icon": "📐", "label": "Sur mesure" }
+  "stats": [
+    { "value": "1500+", "label": "Installations réalisées" },
+    { "value": "2 ans", "label": "Garantie pose" },
+    { "value": "48h", "label": "Délai moyen installation" }
   ],
+  "certifications": [
+    { "icon": "trophy", "label": "Installateur agréé" },
+    { "icon": "check", "label": "Garantie 2 ans" },
+    { "icon": "ruler", "label": "100% sur-mesure" },
+    { "icon": "lock", "label": "Normes CE" }
+  ],
+  "processus": {
+    "title": "Notre processus d'installation",
+    "subtitle": "Une méthodologie rigoureuse pour une pose parfaite de votre rideau métallique",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Visite technique gratuite",
+        "description": "Un technicien qualifié se déplace pour prendre les mesures exactes, analyser la configuration de votre local et vous conseiller sur le type de rideau adapté à vos besoins.",
+        "duration": "30 min"
+      },
+      {
+        "number": "02",
+        "title": "Devis détaillé transparent",
+        "description": "Vous recevez sous 24h un devis complet avec le détail des prestations : fourniture du rideau, pose, motorisation éventuelle, finitions et garanties.",
+        "duration": "24h"
+      },
+      {
+        "number": "03",
+        "title": "Fabrication sur-mesure",
+        "description": "Votre rideau métallique est fabriqué aux dimensions exactes dans nos ateliers partenaires. Nous travaillons avec les meilleurs fabricants français.",
+        "duration": "5-10 jours"
+      },
+      {
+        "number": "04",
+        "title": "Installation professionnelle",
+        "description": "Pose soignée par nos techniciens qualifiés : fixation des coulisses, installation du tablier, mise en place de l'axe d'enroulement, raccordements électriques si motorisé.",
+        "duration": "1/2 journée"
+      },
+      {
+        "number": "05",
+        "title": "Mise en service & formation",
+        "description": "Test complet du rideau, réglages fins, programmation de la motorisation et télécommandes. Formation à l'utilisation et conseils d'entretien.",
+        "duration": "30 min"
+      }
+    ]
+  },
   "prestations": [
     {
-      "icon": "🚪",
+      "icon": "shutter",
       "title": "Rideau à lames pleines",
-      "description": "Protection maximale pour commerces et entrepôts. Isolation thermique et phonique, haute résistance aux effractions.",
-      "price": "À partir de 1500€"
+      "description": "Protection maximale anti-effraction pour commerces et entrepôts. Lames en acier galvanisé 77mm ou 55mm. Excellente isolation thermique et phonique. Idéal pour bijouteries, pharmacies, banques.",
+      "avantages": ["Sécurité maximale", "Isolation thermique", "Anti-effraction"],
+      "price": "À partir de 1 200€ HT",
+      "image": "/images/rideau-metallique-lame-pleine-drm-montpellier.webp"
     },
     {
-      "icon": "👁️",
+      "icon": "eye",
       "title": "Rideau micro-perforé",
-      "description": "Visibilité de votre vitrine même fermée. Idéal pour boutiques et commerces de centre-ville.",
-      "price": "À partir de 1800€"
+      "description": "Visibilité de votre vitrine même fermé grâce aux micro-perforations. Laisse passer 20% de lumière. Parfait pour boutiques de centre-ville, commerces de détail, vitrines de mode.",
+      "avantages": ["Vitrine visible", "Sécurité + visibilité", "Esthétique moderne"],
+      "price": "À partir de 1 400€ HT",
+      "image": "/images/rideau-metallique-lame-perforer-drm-montpellier.webp"
     },
     {
-      "icon": "🔒",
-      "title": "Grille métallique",
-      "description": "Protection tout en transparence. Parfait pour vitrines et devantures de magasins.",
-      "price": "À partir de 1200€"
+      "icon": "grid",
+      "title": "Grille métallique articulée",
+      "description": "Protection tout en transparence pour vitrines et devantures. Tubes en acier ou aluminium assemblés. Vision complète sur le commerce. Solution économique et efficace.",
+      "avantages": ["Transparence totale", "Prix accessible", "Ventilation naturelle"],
+      "price": "À partir de 900€ HT",
+      "image": "/images/grille-cobra-rideau-metallique.webp"
     },
     {
-      "icon": "🔥",
+      "icon": "fire",
       "title": "Rideau coupe-feu",
-      "description": "Conformité aux normes incendie. Obligatoire pour certains ERP et locaux industriels.",
+      "description": "Conformité aux normes incendie EI30, EI60, EI120. Obligatoire pour certains ERP et locaux industriels. Installation selon DTU et réglementation. Certificat de conformité fourni.",
+      "avantages": ["Normes EI30/60/120", "Certificat fourni", "Obligatoire ERP"],
+      "price": "À partir de 2 500€ HT"
+    },
+    {
+      "icon": "snowflake",
+      "title": "Rideau isolant thermique",
+      "description": "Isolation renforcée avec mousse polyuréthane injectée. Réduction des pertes de chaleur jusqu'à 40%. Économies d'énergie significatives. Idéal pour chambres froides, entrepôts frigorifiques.",
+      "avantages": ["Isolation optimale", "Économies d'énergie", "Confort acoustique"],
+      "price": "À partir de 1 800€ HT"
+    },
+    {
+      "icon": "building",
+      "title": "Rideau grande dimension",
+      "description": "Installation de rideaux métalliques industriels grande largeur (jusqu'à 12m) et grande hauteur (jusqu'à 8m). Pour hangars, entrepôts logistiques, garages PL, concessions automobiles.",
+      "avantages": ["Jusqu'à 12m x 8m", "Usage intensif", "Motorisation HD"],
       "price": "Sur devis"
     }
   ],
+  "secteurs": {
+    "title": "Secteurs d'activité",
+    "subtitle": "Nous installons des rideaux métalliques adaptés à chaque métier",
+    "items": [
+      {
+        "title": "Commerces de proximité",
+        "examples": "Boulangeries, boucheries, épiceries, tabacs-presse",
+        "icon": "store",
+        "image": "/images/commerce-proximite-drm-montpellier.webp"
+      },
+      {
+        "title": "Boutiques & retail",
+        "examples": "Prêt-à-porter, chaussures, accessoires, décoration",
+        "icon": "shopping",
+        "image": "/images/depannage-rideau-metallique-boutique-retail-drm-montpellier.webp"
+      },
+      {
+        "title": "Restaurants & CHR",
+        "examples": "Restaurants, bars, brasseries, hôtels",
+        "icon": "restaurant",
+        "image": "/images/restaurant-depannage-rideau-metallique-drm-montpellier.webp"
+      },
+      {
+        "title": "Services & professions libérales",
+        "examples": "Banques, assurances, pharmacies, agences",
+        "icon": "bank",
+        "image": "/images/depannage-rideau-metallique-drm-banque.webp"
+      },
+      {
+        "title": "Entrepôts & logistique",
+        "examples": "Hangars, dépôts, centres logistiques",
+        "icon": "warehouse",
+        "image": "/images/entrepot-depannage-rideau-metallique-montpellier.webp"
+      },
+      {
+        "title": "Garages & automobile",
+        "examples": "Garages, concessions, stations-service",
+        "icon": "car",
+        "image": "/images/depannage-rideau-metallique-garage-automobile.webp"
+      }
+    ]
+  },
+  "garanties": {
+    "title": "Nos garanties installation",
+    "items": [
+      {
+        "title": "Garantie pose 2 ans",
+        "description": "Toute notre main d'œuvre est garantie 2 ans. En cas de défaut de pose, nous intervenons gratuitement.",
+        "icon": "shield"
+      },
+      {
+        "title": "Garantie fabricant 5 ans",
+        "description": "Les rideaux que nous installons bénéficient de la garantie constructeur de 2 à 5 ans selon les modèles.",
+        "icon": "document"
+      },
+      {
+        "title": "SAV réactif",
+        "description": "Service après-vente disponible 7j/7. Intervention sous 24h en cas de problème après installation.",
+        "icon": "wrench"
+      },
+      {
+        "title": "Conformité assurée",
+        "description": "Installation conforme aux DTU et normes en vigueur. Attestation de conformité remise à la fin des travaux.",
+        "icon": "check-circle"
+      }
+    ]
+  },
   "brands": [
     "Somfy",
     "Nice",
@@ -43,11 +173,16 @@
     "Bubendorff",
     "Simu",
     "Profalux",
-    "France Fermetures"
+    "France Fermetures",
+    "Novoferm",
+    "Crawford"
   ],
+  "zones": {
+    "title": "Zones d'intervention installation",
+    "text": "Nous intervenons pour l'installation de rideaux métalliques dans tout le département de l'Hérault (34) : Montpellier, Castelnau-le-Lez, Lattes, Pérols, Mauguio, Saint-Jean-de-Védas, Juvignac, Grabels, Le Crès, Jacou, Palavas-les-Flots, Villeneuve-lès-Maguelone, et toutes les communes environnantes."
+  },
   "cta": {
-    "title": "Besoin d'un rideau métallique ?",
-    "subtitle": "Devis gratuit sous 24h. Installation rapide et soignée."
+    "title": "Besoin d'installer un rideau métallique ?",
+    "subtitle": "Devis gratuit sous 24h. Visite technique offerte. Installation rapide et soignée par nos équipes certifiées."
   }
 }
-

@@ -28,7 +28,7 @@
     {
       "icon": "🔩",
       "title": "Axe d'enroulement",
-      "description": "Remplacement ou réparation de l'axe, des ressorts de compensation et du tablier."
+      "description": "Remplacement ou réparation de l'axe d'enroulement, des ressorts de compensation et du tablier."
     },
     {
       "icon": "🔐",
@@ -46,4 +46,3 @@
     "subtitle": "Nos techniciens interviennent en 1 heure maximum, 24h/24 et 7j/7 à {city}."
   }
 }
-

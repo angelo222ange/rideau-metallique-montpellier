@@ -1,0 +1,88 @@
+[
+  {
+    "id": "ent-1",
+    "name": "Jean Marie Paulin",
+    "rating": 5,
+    "date": "il y a 3 semaines",
+    "text": "Contrat d'entretien annuel souscrit avec DRM. Pas besoin d'attendre une semaine pour un rendez-vous, ils sont intervenus le lendemain. Vérification complète, conseils pour éviter que ça recommence. Rien à redire.",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-amber-500"
+  },
+  {
+    "id": "ent-2",
+    "name": "Sami YT",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Entretien régulier sur mon rideau métallique. Depuis que j'ai pris le contrat maintenance chez DRM, plus aucune panne. La lubrification et les réglages font vraiment la différence. Tarif raisonnable.",
+    "visitDate": "octobre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "ent-3",
+    "name": "Marie-Claire Durand",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Maintenance préventive de mon rideau de commerce à Port Marianne. Le technicien a tout vérifié, lubrifié les rails, ajusté les fins de course. Mon rideau n'a jamais été aussi silencieux !",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-teal-500"
+  },
+  {
+    "id": "ent-4",
+    "name": "François Petit",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Contrat entretien Pro souscrit pour mes 3 rideaux métalliques. 2 visites par an, rapport détaillé à chaque passage. Depuis 2 ans, aucune panne imprévue. L'investissement en vaut la peine.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "icon"
+  },
+  {
+    "id": "ent-5",
+    "name": "Isabelle Moreau",
+    "rating": 5,
+    "date": "il y a 3 semaines",
+    "text": "Entretien annuel de mon rideau métallique à Castelnau-le-Lez. Le technicien a détecté une pièce usée et l'a remplacée avant qu'elle ne casse. C'est ça l'avantage de l'entretien préventif !",
+    "visitDate": "novembre",
+    "isNew": true,
+    "avatarType": "gradient",
+    "avatarColor": "from-rose-400 to-pink-500"
+  },
+  {
+    "id": "ent-6",
+    "name": "Serge Legono",
+    "rating": 5,
+    "date": "il y a un mois",
+    "text": "Après une panne un samedi matin, j'ai décidé de prendre un contrat d'entretien. Depuis, intervention régulière, tout est vérifié. Ça fonctionne bien, sans bruit ni à-coup. Tranquillité d'esprit assurée.",
+    "visitDate": "novembre",
+    "isNew": false,
+    "avatarType": "landscape"
+  },
+  {
+    "id": "ent-7",
+    "name": "Didier Lambert",
+    "rating": 5,
+    "date": "il y a 2 semaines",
+    "text": "Excellent service d'entretien. Le rappel automatique pour les visites, le rapport détaillé, les conseils d'utilisation... DRM prend vraiment soin de ses clients. Formule Essentiel parfaite pour mon besoin.",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-indigo-500"
+  },
+  {
+    "id": "ent-8",
+    "name": "Nathalie Rousseau",
+    "rating": 5,
+    "date": "il y a une semaine",
+    "text": "Visite d'entretien à Juvignac. Le technicien a pris le temps d'expliquer les points vérifiés et les gestes à éviter pour préserver le rideau. Très pédagogue et professionnel. Merci DRM !",
+    "visitDate": "décembre",
+    "isNew": true,
+    "avatarType": "letter",
+    "avatarColor": "bg-cyan-500"
+  }
+]
+

@@ -1,54 +1,218 @@
 {
-  "hero": {
-    "badge": "⚡ Motorisation",
-    "title": "Motorisation Rideau Métallique {city}",
-    "subtitle": "Automatisez votre rideau métallique pour plus de confort et de sécurité. Installation moteur, télécommande, clavier à code."
+  "meta": {
+    "title": "Motorisation Rideau Métallique Montpellier | Automatisation Pro | DRM",
+    "description": "⭐ Motorisation rideau métallique à Montpellier (34). Moteur tubulaire, central, latéral dès 350€. ✓ Télécommande incluse ✓ Garantie 2 ans ✓ Devis gratuit ☎️ 04 11 93 76 76",
+    "keywords": ["motorisation rideau métallique Montpellier", "automatisation rideau métallique 34", "moteur rideau Hérault", "télécommande rideau métallique", "installation moteur rideau de fer", "automatiser rideau commerce Occitanie"]
   },
-  "avantages": [
-    {
-      "icon": "🎮",
-      "title": "Confort d'utilisation",
-      "description": "Ouvrez et fermez votre rideau d'un simple clic, sans effort."
-    },
-    {
-      "icon": "🔐",
-      "title": "Sécurité renforcée",
-      "description": "Système anti-relevage et verrouillage automatique."
-    },
-    {
-      "icon": "⏱️",
-      "title": "Gain de temps",
-      "description": "Ouverture/fermeture rapide, programmation horaire possible."
-    },
-    {
-      "icon": "📱",
-      "title": "Pilotage à distance",
-      "description": "Contrôle via smartphone avec les motorisations connectées."
-    }
-  ],
-  "types": [
-    {
-      "icon": "🔄",
-      "title": "Moteur tubulaire",
-      "description": "Intégré dans l'axe d'enroulement. Discret et efficace pour rideaux jusqu'à 200kg.",
-      "price": "À partir de 450€"
-    },
-    {
-      "icon": "⚙️",
-      "title": "Moteur central",
-      "description": "Pour rideaux lourds et grandes dimensions. Puissance et fiabilité.",
-      "price": "À partir de 650€"
-    },
-    {
-      "icon": "🔗",
-      "title": "Moteur latéral",
-      "description": "Installation en applique. Solution économique et facile à entretenir.",
-      "price": "À partir de 350€"
-    }
-  ],
+  "hero": {
+    "badge": "⚡ Motorisation Experte",
+    "title": "Motorisation Rideau Métallique à Montpellier",
+    "subtitle": "Automatisez votre rideau métallique pour plus de confort, de sécurité et de gain de temps. Installation par nos techniciens certifiés.",
+    "features": [
+      "Motorisation tous types",
+      "Télécommande incluse",
+      "Garantie 2 ans"
+    ]
+  },
+  "avantages": {
+    "title": "Pourquoi Motoriser Votre Rideau Métallique ?",
+    "subtitle": "La motorisation transforme votre quotidien : confort d'utilisation, sécurité renforcée et gain de temps précieux.",
+    "items": [
+      {
+        "id": "confort",
+        "icon": "hand",
+        "title": "Confort d'Utilisation",
+        "description": "Ouvrez et fermez votre rideau métallique d'un simple clic, sans effort physique. Fini les manivelles difficiles et les rideaux lourds à manipuler manuellement.",
+        "stat": "1 clic",
+        "statLabel": "pour ouvrir",
+        "features": [
+          "Ouverture sans effort",
+          "Télécommande ergonomique",
+          "Fin des manipulations pénibles",
+          "Confort au quotidien"
+        ],
+        "image": "/images/motorisation-montpellier-rideau-metallique.webp"
+      },
+      {
+        "id": "temps",
+        "icon": "clock",
+        "title": "Gain de Temps Précieux",
+        "description": "Ouverture et fermeture rapides, possibilité de programmer des horaires automatiques. Chaque matin et chaque soir, gagnez de précieuses minutes.",
+        "stat": "30 sec",
+        "statLabel": "ouverture",
+        "features": [
+          "Ouverture en 30 secondes",
+          "Programmation horaire possible",
+          "Fermeture automatique",
+          "Gain de 10 min/jour"
+        ],
+        "image": "/images/rideau-metallique-montpellier.mp4",
+        "isVideo": true
+      },
+      {
+        "id": "securite",
+        "icon": "shield",
+        "title": "Sécurité Renforcée",
+        "description": "Les moteurs modernes intègrent un système anti-relevage et un verrouillage automatique. Votre commerce est protégé contre les tentatives d'effraction.",
+        "stat": "100%",
+        "statLabel": "sécurisé",
+        "features": [
+          "Verrouillage automatique",
+          "Système anti-relevage",
+          "Détection d'obstacle",
+          "Protection anti-effraction"
+        ],
+        "image": "/images/hero/rideau-metallique-hero-depannage-rideau-metallique-montpellier-34.webp"
+      },
+      {
+        "id": "longevite",
+        "icon": "star",
+        "title": "Longévité du Rideau",
+        "description": "Un moteur garantit une montée et descente régulières et sans à-coups, ce qui préserve les lames et les mécanismes. Votre rideau dure plus longtemps.",
+        "stat": "+5 ans",
+        "statLabel": "durée de vie",
+        "features": [
+          "Mouvement fluide et régulier",
+          "Moins d'usure mécanique",
+          "Préservation des lames",
+          "Entretien facilité"
+        ],
+        "image": "/images/declice-des-anges-rideau-metallique.webp"
+      }
+    ]
+  },
+  "moteurs": {
+    "title": "Quel Type de Moteur pour Votre Rideau ?",
+    "subtitle": "Nous installons tous types de moteurs adaptés à vos besoins et à la configuration de votre rideau métallique. Devis gratuit sur place.",
+    "items": [
+      {
+        "id": "tubulaire",
+        "icon": "tubulaire",
+        "title": "Moteur Tubulaire",
+        "description": "Intégré dans l'axe d'enroulement, le moteur tubulaire est discret et silencieux. Idéal pour les rideaux de petite et moyenne taille jusqu'à 200kg.",
+        "price": "Sur devis",
+        "specs": [
+          "Charge max : 200 kg",
+          "Silencieux",
+          "Installation discrète",
+          "Idéal commerces"
+        ],
+        "image": "/images/moteur-tubulaire-rideau-metallique-drm.webp"
+      },
+      {
+        "id": "central",
+        "icon": "central",
+        "title": "Moteur Central",
+        "description": "Puissant et fiable, le moteur central est conçu pour les rideaux lourds et de grandes dimensions. La solution professionnelle par excellence.",
+        "price": "Sur devis",
+        "specs": [
+          "Charge max : 600 kg",
+          "Haute puissance",
+          "Très fiable",
+          "Grands rideaux"
+        ],
+        "image": "/images/moteur-acm.webp"
+      },
+      {
+        "id": "lateral",
+        "icon": "lateral",
+        "title": "Moteur Latéral",
+        "description": "Installation en applique sur le côté du rideau. Solution économique et facile à entretenir, parfaite pour les rénovations.",
+        "price": "Sur devis",
+        "specs": [
+          "Charge max : 300 kg",
+          "Facile à installer",
+          "Entretien aisé",
+          "Économique"
+        ],
+        "image": "/images/moteur-laterale-rideau-metallique-drm.webp"
+      }
+    ]
+  },
+  "accessoires": {
+    "title": "Accessoires & Options",
+    "subtitle": "Complétez votre installation avec nos accessoires pour un confort et une sécurité maximum. Tarifs sur devis selon vos besoins.",
+    "items": [
+      {
+        "id": "telecommande",
+        "icon": "remote",
+        "title": "Télécommande",
+        "description": "Pilotez votre rideau à distance. Télécommandes 2 ou 4 boutons, portée jusqu'à 30 mètres.",
+        "price": "Incluse"
+      },
+      {
+        "id": "clavier",
+        "icon": "keypad",
+        "title": "Clavier à Code",
+        "description": "Code personnalisable pour ouvrir sans télécommande. Idéal pour les employés et livreurs.",
+        "price": "Sur devis"
+      },
+      {
+        "id": "detecteur",
+        "icon": "sensor",
+        "title": "Détecteur d'Obstacle",
+        "description": "Sécurité maximale : le rideau s'arrête automatiquement en cas d'obstacle détecté.",
+        "price": "Sur devis"
+      },
+      {
+        "id": "batterie",
+        "icon": "battery",
+        "title": "Batterie de Secours",
+        "description": "Continuez à utiliser votre rideau même en cas de coupure électrique. Autonomie jusqu'à 20 cycles.",
+        "price": "Sur devis"
+      },
+      {
+        "id": "smartphone",
+        "icon": "smartphone",
+        "title": "Commande Smartphone",
+        "description": "Pilotez votre rideau depuis votre smartphone via WiFi. Contrôle à distance illimité.",
+        "price": "Sur devis"
+      },
+      {
+        "id": "horloge",
+        "icon": "timer",
+        "title": "Horloge Programmable",
+        "description": "Programmez l'ouverture et la fermeture automatique selon vos horaires de travail.",
+        "price": "Sur devis"
+      }
+    ]
+  },
+  "processus": {
+    "title": "Notre Processus d'Installation",
+    "subtitle": "Une motorisation réussie en 4 étapes, du diagnostic à la mise en service.",
+    "steps": [
+      {
+        "id": 1,
+        "title": "Diagnostic",
+        "description": "Analyse de votre rideau existant et de vos besoins spécifiques.",
+        "icon": "search"
+      },
+      {
+        "id": 2,
+        "title": "Devis Gratuit",
+        "description": "Proposition détaillée avec choix du moteur et des accessoires adaptés.",
+        "icon": "document"
+      },
+      {
+        "id": 3,
+        "title": "Installation",
+        "description": "Pose par nos techniciens certifiés, généralement en une demi-journée.",
+        "icon": "wrench"
+      },
+      {
+        "id": 4,
+        "title": "Formation",
+        "description": "Démonstration complète et remise des télécommandes et documentation.",
+        "icon": "check"
+      }
+    ]
+  },
+  "urgence": {
+    "title": "Votre Moteur est en Panne ?",
+    "description": "Nos techniciens dépannent tous types de motorisations 24h/24. Intervention rapide à Montpellier."
+  },
   "cta": {
-    "title": "Motorisez votre rideau métallique",
-    "subtitle": "Devis gratuit. Installation par nos techniciens qualifiés."
+    "title": "Automatisez Votre Rideau Métallique",
+    "subtitle": "Devis gratuit et sans engagement. Installation rapide par nos techniciens certifiés à Montpellier."
   }
 }
-

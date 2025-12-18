@@ -1,0 +1,113 @@
+{
+  "id": "realisations",
+  "title": "Réalisations de Rideaux Métalliques",
+  "titleHighlight": "dans l'Hérault",
+  "subtitle": "Découvrez quelques-unes de nos installations récentes à Montpellier et dans le département 34. Chaque projet est unique et témoigne de notre savoir-faire artisanal.",
+  "badge": {
+    "text": "Portfolio local",
+    "icon": "images"
+  },
+  "filters": [
+    { "id": "all", "label": "Tous", "count": 6 },
+    { "id": "commerce", "label": "Commerces", "count": 3 },
+    { "id": "garage", "label": "Particuliers", "count": 1 },
+    { "id": "industrie", "label": "Industriel", "count": 1 },
+    { "id": "restaurant", "label": "Restaurants", "count": 1 }
+  ],
+  "projects": [
+    {
+      "id": "restaurant-provencal",
+      "title": "Restaurant Le Provençal",
+      "category": "restaurant",
+      "location": "Montpellier Centre",
+      "postalCode": "34000",
+      "description": "Rideau à lames microperforées avec finition bronze, parfaitement intégré au style historique du quartier.",
+      "type": "Lames microperforées",
+      "dimensions": "4.5m x 3m",
+      "image": "/images/depannage-rideau-metallique-le-provencal.webp",
+      "features": ["Microperforé 30%", "Finition bronze", "Motorisé"],
+      "year": 2024
+    },
+    {
+      "id": "pharmacie-arcades",
+      "title": "Pharmacie des Arcades",
+      "category": "commerce",
+      "location": "Montpellier",
+      "postalCode": "34000",
+      "description": "Rideau à lames pleines blanc RAL 9010, adapté aux exigences de sécurité pharmaceutique avec serrure renforcée.",
+      "type": "Lames pleines",
+      "dimensions": "3.2m x 2.8m",
+      "image": "/images/depannage-rideau-metallique-pharmacie-des-arcades.webp",
+      "features": ["Serrure 3 points", "Blanc RAL 9010", "Motorisé + manuel secours"],
+      "year": 2024
+    },
+    {
+      "id": "boutique-rouge",
+      "title": "Boutique Rouge",
+      "category": "commerce",
+      "location": "Rue des Loges",
+      "postalCode": "34000",
+      "description": "Rideau métallique moderne pour boutique de mode, design épuré et sécurité optimale.",
+      "type": "Lames pleines",
+      "dimensions": "4m x 3m",
+      "image": "/images/depannage-rideau-metallique-drm-montpellier-34.webp",
+      "features": ["Design moderne", "Motorisé", "Finition sur-mesure"],
+      "year": 2024
+    },
+    {
+      "id": "delice-des-anges",
+      "title": "Délice des Anges",
+      "category": "commerce",
+      "location": "Cap d'Agde",
+      "postalCode": "34300",
+      "description": "Rideau métallique sur-mesure pour pâtisserie, alliant esthétique et protection.",
+      "type": "Lames microperforées",
+      "dimensions": "3.5m x 2.8m",
+      "image": "/images/declice-des-anges-rideau-metallique.webp",
+      "features": ["Visibilité vitrine", "Blanc crème", "Électrique"],
+      "year": 2024
+    },
+    {
+      "id": "particulier-montpellier",
+      "title": "Particulier",
+      "category": "garage",
+      "location": "Montpellier",
+      "postalCode": "34070",
+      "description": "Rideau métallique pour particulier, protection garage résidentiel avec finition soignée.",
+      "type": "Lames pleines",
+      "dimensions": "3m x 2.5m",
+      "image": "/images/particulier-drm-montpelier.webp",
+      "features": ["Résidentiel", "Motorisé", "Télécommande"],
+      "year": 2024
+    },
+    {
+      "id": "entrepot-logistique",
+      "title": "Entrepôt Logistique",
+      "category": "industrie",
+      "location": "Montpellier",
+      "postalCode": "34000",
+      "description": "Double rideau industriel grande hauteur pour zone de chargement camions.",
+      "type": "Rideau industriel",
+      "dimensions": "8m x 5m",
+      "image": "/images/entrepot-rideau-metallique.webp",
+      "features": ["Grande hauteur", "Double paroi", "Télécommande radio"],
+      "year": 2024
+    }
+  ],
+  "stats": {
+    "totalProjects": "500+",
+    "localProjects": "150+",
+    "satisfactionRate": "98%"
+  },
+  "cta": {
+    "text": "Voir votre projet réalisé ?",
+    "subtext": "Contactez-nous pour une étude personnalisée",
+    "href": "/contact"
+  },
+  "localSeo": {
+    "intro": "Nos réalisations de rideaux métalliques à Montpellier et dans l'Hérault témoignent de notre expertise locale.",
+    "coverage": "Nous intervenons dans tout Montpellier (L'Écusson, Antigone, Port Marianne), Castelnau-le-Lez, Lattes, Pérols, et plus de 20 communes du département 34.",
+    "expertise": "Fabricant local de rideaux métalliques en Occitanie, nous réalisons des projets sur-mesure pour commerces, restaurants, garages et locaux industriels."
+  }
+}
+

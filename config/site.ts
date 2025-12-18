@@ -1,6 +1,6 @@
 /**
  * ═══════════════════════════════════════════════════════════════════════════
- * CONFIGURATION DU SITE - PERSONNALISER POUR CHAQUE NOUVEAU SITE
+ * CONFIGURATION DU SITE - DRM Montpellier
  * ═══════════════════════════════════════════════════════════════════════════
  */
 
@@ -8,30 +8,30 @@ export const siteConfig = {
   // ─────────────────────────────────────────────────────────────────────────
   // INFORMATIONS ENTREPRISE
   // ─────────────────────────────────────────────────────────────────────────
-  name: "DRM Paris",                         // Nom court / marque
-  fullName: "Dépannage Rideau Métallique Paris",
-  domain: "rideau-metallique-paris.fr",
+  name: "DRM Montpellier",
+  fullName: "Dépannage Rideau Métallique Montpellier",
+  domain: "depannage-rideau-metallique-montpellier.fr",
   
   // ─────────────────────────────────────────────────────────────────────────
   // CONTACT
   // ─────────────────────────────────────────────────────────────────────────
-  phone: "01 23 45 67 89",
-  phoneLink: "tel:+33123456789",
-  email: "contact@rideau-metallique-paris.fr",
+  phone: "04 11 93 76 76",
+  phoneLink: "tel:+33411937676",
+  email: "contact@depannage-rideau-metallique-montpellier.fr",
   
   // ─────────────────────────────────────────────────────────────────────────
   // LOCALISATION
   // ─────────────────────────────────────────────────────────────────────────
-  city: "Paris",
-  postalCode: "75000",
-  department: "Paris",
-  departmentCode: "75",
-  region: "Île-de-France",
-  address: "75000 Paris, France",
+  city: "Montpellier",
+  postalCode: "34000",
+  department: "Hérault",
+  departmentCode: "34",
+  region: "Occitanie",
+  address: "15 Rue Marceau, 34000 Montpellier, France",
   
   geo: {
-    lat: 48.8566,
-    lng: 2.3522,
+    lat: 43.6108,
+    lng: 3.8767,
   },
   
   // ─────────────────────────────────────────────────────────────────────────
@@ -53,141 +53,140 @@ export const siteConfig = {
   // AVIS GOOGLE
   // ─────────────────────────────────────────────────────────────────────────
   reviews: {
-    rating: 4.8,
-    count: 95,
+    rating: 4.9,
+    count: 127,
     googleUrl: "",
   },
 
   // ─────────────────────────────────────────────────────────────────────────
-  // DESIGN - COULEURS
-  // Palette orange/gris industriel par défaut - À PERSONNALISER
+  // DESIGN - COULEURS INSPIRÉES DE MONTPELLIER
+  // Bleu Méditerranée + Terracotta
   // ─────────────────────────────────────────────────────────────────────────
   colors: {
     primary: {
-      50: '#fff7ed',
-      100: '#ffedd5',
-      200: '#fed7aa',
-      300: '#fdba74',
-      400: '#fb923c',
-      500: '#f97316',
-      600: '#ea580c',  // Couleur principale - Orange industriel
-      700: '#c2410c',
-      800: '#9a3412',
-      900: '#7c2d12',
-    }
+      50: '#e6f4fa',
+      100: '#cce9f5',
+      200: '#99d3eb',
+      300: '#66bde1',
+      400: '#33a7d7',
+      500: '#0077B6',  // Bleu Méditerranée - couleur principale
+      600: '#006699',
+      700: '#004d73',
+      800: '#023E8A',  // Bleu Nuit Écusson
+      900: '#012a5e',
+    },
+    secondary: {
+      400: '#f0a060',
+      500: '#E07B39',  // Terracotta Toiture
+      600: '#c66830',
+    },
+    accent: {
+      400: '#6dd5f0',
+      500: '#48CAE4',  // Azur Ciel
+      600: '#30b8d5',
+    },
   },
 } as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// ZONES D'INTERVENTION
+// ZONES D'INTERVENTION - MONTPELLIER ET AGGLOMÉRATION
 // ─────────────────────────────────────────────────────────────────────────
 export const zones = [
-  { name: "Paris", slug: "paris", postalCode: "75000", isMain: true },
-  { name: "Paris 1er", slug: "paris-1", postalCode: "75001", arrondissement: 1 },
-  { name: "Paris 2e", slug: "paris-2", postalCode: "75002", arrondissement: 2 },
-  { name: "Paris 3e", slug: "paris-3", postalCode: "75003", arrondissement: 3 },
-  { name: "Paris 4e", slug: "paris-4", postalCode: "75004", arrondissement: 4 },
-  { name: "Paris 5e", slug: "paris-5", postalCode: "75005", arrondissement: 5 },
-  { name: "Paris 6e", slug: "paris-6", postalCode: "75006", arrondissement: 6 },
-  { name: "Paris 7e", slug: "paris-7", postalCode: "75007", arrondissement: 7 },
-  { name: "Paris 8e", slug: "paris-8", postalCode: "75008", arrondissement: 8 },
-  { name: "Paris 9e", slug: "paris-9", postalCode: "75009", arrondissement: 9 },
-  { name: "Paris 10e", slug: "paris-10", postalCode: "75010", arrondissement: 10 },
-  { name: "Paris 11e", slug: "paris-11", postalCode: "75011", arrondissement: 11 },
-  { name: "Paris 12e", slug: "paris-12", postalCode: "75012", arrondissement: 12 },
-  { name: "Paris 13e", slug: "paris-13", postalCode: "75013", arrondissement: 13 },
-  { name: "Paris 14e", slug: "paris-14", postalCode: "75014", arrondissement: 14 },
-  { name: "Paris 15e", slug: "paris-15", postalCode: "75015", arrondissement: 15 },
-  { name: "Paris 16e", slug: "paris-16", postalCode: "75016", arrondissement: 16 },
-  { name: "Paris 17e", slug: "paris-17", postalCode: "75017", arrondissement: 17 },
-  { name: "Paris 18e", slug: "paris-18", postalCode: "75018", arrondissement: 18 },
-  { name: "Paris 19e", slug: "paris-19", postalCode: "75019", arrondissement: 19 },
-  { name: "Paris 20e", slug: "paris-20", postalCode: "75020", arrondissement: 20 },
+  { name: "Montpellier", slug: "montpellier", postalCode: "34000", isMain: true },
+  { name: "Montpellier Centre", slug: "montpellier-centre", postalCode: "34000", quartier: true },
+  { name: "L'Écusson", slug: "ecusson", postalCode: "34000", quartier: true },
+  { name: "Antigone", slug: "antigone", postalCode: "34000", quartier: true },
+  { name: "Port Marianne", slug: "port-marianne", postalCode: "34000", quartier: true },
+  { name: "Castelnau-le-Lez", slug: "castelnau-le-lez", postalCode: "34170" },
+  { name: "Lattes", slug: "lattes", postalCode: "34970" },
+  { name: "Pérols", slug: "perols", postalCode: "34470" },
+  { name: "Mauguio", slug: "mauguio", postalCode: "34130" },
+  { name: "Saint-Jean-de-Védas", slug: "saint-jean-de-vedas", postalCode: "34430" },
+  { name: "Juvignac", slug: "juvignac", postalCode: "34990" },
+  { name: "Grabels", slug: "grabels", postalCode: "34790" },
+  { name: "Clapiers", slug: "clapiers", postalCode: "34830" },
+  { name: "Le Crès", slug: "le-cres", postalCode: "34920" },
+  { name: "Jacou", slug: "jacou", postalCode: "34830" },
+  { name: "Villeneuve-lès-Maguelone", slug: "villeneuve-les-maguelone", postalCode: "34750" },
+  { name: "Palavas-les-Flots", slug: "palavas-les-flots", postalCode: "34250" },
+  { name: "Carnon", slug: "carnon", postalCode: "34280" },
+  { name: "Baillargues", slug: "baillargues", postalCode: "34670" },
+  { name: "Vendargues", slug: "vendargues", postalCode: "34740" },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// NAVIGATION
+// NAVIGATION - SIMPLIFIÉE SELON CONTEXTE
 // ─────────────────────────────────────────────────────────────────────────
 export const navigation = [
   { label: "Accueil", href: "/" },
-  { label: "Dépannage", href: "/depannage" },
-  { label: "Installation", href: "/installation" },
-  { label: "Motorisation", href: "/motorisation" },
-  { label: "Entretien", href: "/entretien" },
-  { label: "Tarifs", href: "/tarifs" },
-  { label: "Contact", href: "/contact" },
+  { label: "Installation", href: "/installation-rideau-metallique" },
+  { label: "Fabrication", href: "/fabrication-rideau-metallique" },
+  { label: "Entretien", href: "/entretien-rideau-metallique" },
+  { label: "Motorisation", href: "/motorisation-rideau-metallique" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact-rideau-metallique" },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// SERVICES - Chaque service a sa propre page + pages localisées
+// SERVICES - 4 services principaux
 // ─────────────────────────────────────────────────────────────────────────
 export const services = [
   {
     id: "depannage",
-    slug: "depannage",
-    name: "Dépannage Urgence",
+    slug: "depannage-rideau-metallique",
+    name: "Dépannage Rideau Métallique",
     shortDesc: "Intervention rapide 24h/24",
-    longDesc: "Service de dépannage rideau métallique en urgence, disponible 24h/24 et 7j/7.",
-    icon: "🔧",
+    longDesc: "Service de dépannage rideau métallique en urgence, disponible 24h/24 et 7j/7 à Montpellier.",
+    icon: "depannage",
     hasPage: true,
   },
   {
     id: "installation",
-    slug: "installation",
-    name: "Installation",
-    shortDesc: "Pose de rideaux métalliques",
-    longDesc: "Installation complète de rideaux métalliques pour commerces et locaux professionnels.",
-    icon: "🏗️",
+    slug: "installation-rideau-metallique",
+    name: "Installation Rideau Métallique",
+    shortDesc: "Pose professionnelle certifiée",
+    longDesc: "Installation de rideaux métalliques sur-mesure pour commerces, entrepôts et locaux professionnels à Montpellier.",
+    icon: "installation",
     hasPage: true,
   },
   {
-    id: "motorisation",
-    slug: "motorisation",
-    name: "Motorisation",
-    shortDesc: "Automatisation de votre rideau",
-    longDesc: "Motorisation et automatisation de rideaux métalliques existants ou neufs.",
-    icon: "⚡",
+    id: "fabrication",
+    slug: "fabrication-rideau-metallique",
+    name: "Fabrication Rideau Métallique",
+    shortDesc: "Rideaux métalliques personnalisés",
+    longDesc: "Fabrication de rideaux métalliques sur-mesure pour commerces et locaux professionnels à Montpellier.",
+    icon: "fabrication",
     hasPage: true,
   },
   {
     id: "entretien",
-    slug: "entretien",
-    name: "Entretien",
+    slug: "entretien-rideau-metallique",
+    name: "Entretien Rideau Métallique",
     shortDesc: "Maintenance préventive",
-    longDesc: "Contrats d'entretien et maintenance préventive pour rideaux métalliques.",
-    icon: "🛠️",
+    longDesc: "Contrats d'entretien et maintenance préventive pour rideaux métalliques à Montpellier.",
+    icon: "entretien",
     hasPage: true,
   },
   {
-    id: "reparation",
-    slug: "reparation",
-    name: "Réparation",
-    shortDesc: "Remise en état complète",
-    longDesc: "Réparation et remise en état de rideaux métalliques endommagés ou usés.",
-    icon: "🔩",
-    hasPage: true,
-  },
-  {
-    id: "deblocage",
-    slug: "deblocage",
-    name: "Déblocage",
-    shortDesc: "Rideau bloqué ou coincé",
-    longDesc: "Déblocage en urgence de rideaux métalliques bloqués, coincés ou hors service.",
-    icon: "🚪",
+    id: "motorisation",
+    slug: "motorisation-rideau-metallique",
+    name: "Motorisation Rideau Métallique",
+    shortDesc: "Automatisation de votre rideau",
+    longDesc: "Motorisation et automatisation de rideaux métalliques existants ou neufs à Montpellier.",
+    icon: "motorisation",
     hasPage: true,
   },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// TYPES DE RIDEAUX (pour personnalisation)
+// TYPES DE RIDEAUX
 // ─────────────────────────────────────────────────────────────────────────
 export const rideauTypes = [
   { name: "Rideau à lames pleines", slug: "lames-pleines" },
   { name: "Rideau à lames micro-perforées", slug: "micro-perfore" },
-  { name: "Rideau à tubes ondulés", slug: "tubes-ondules" },
-  { name: "Grille métallique", slug: "grille" },
+  { name: "Grille métallique articulée", slug: "grille" },
   { name: "Rideau coupe-feu", slug: "coupe-feu" },
-  { name: "Porte de garage", slug: "porte-garage" },
+  { name: "Rideau isolant", slug: "isolant" },
 ] as const;
 
 // Type exports
@@ -195,4 +194,3 @@ export type SiteConfig = typeof siteConfig;
 export type Zone = typeof zones[number];
 export type NavItem = typeof navigation[number];
 export type Service = typeof services[number];
-

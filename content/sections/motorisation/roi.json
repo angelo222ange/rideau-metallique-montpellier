@@ -1,0 +1,191 @@
+{
+  "id": "roi",
+  "badge": {
+    "text": "Rentabilité Prouvée",
+    "icon": "chart"
+  },
+  "title": "Motorisation Rideau Métallique",
+  "titleHighlight": "Un Investissement Rentable",
+  "subtitle": "Découvrez comment la motorisation de votre rideau métallique à Montpellier devient un investissement qui s'amortit rapidement grâce aux économies générées.",
+  
+  "intro": {
+    "text": "Vous pensez que motoriser votre rideau métallique est une dépense superflue ? Nos clients héraultais constatent en moyenne un retour sur investissement en moins de 3 ans. Voici pourquoi la motorisation est un choix stratégique pour votre commerce dans le 34.",
+    "highlight": "ROI moyen constaté : 2-3 ans"
+  },
+  
+  "stats": [
+    {
+      "id": "temps",
+      "value": "16h",
+      "label": "Économisées par an",
+      "icon": "clock",
+      "description": "Temps récupéré grâce à l'ouverture automatique"
+    },
+    {
+      "id": "usure",
+      "value": "-40%",
+      "label": "D'usure en moins",
+      "icon": "shield",
+      "description": "Mouvement régulier et contrôlé du moteur"
+    },
+    {
+      "id": "duree",
+      "value": "+8 ans",
+      "label": "De durée de vie",
+      "icon": "calendar",
+      "description": "Allongement significatif de la durée de vie"
+    },
+    {
+      "id": "sinistres",
+      "value": "-65%",
+      "label": "De sinistres",
+      "icon": "lock",
+      "description": "Grâce au verrouillage automatique"
+    }
+  ],
+  
+  "calcul": {
+    "title": "Calcul du Retour sur Investissement",
+    "subtitle": "Simulation basée sur un commerce type à Montpellier",
+    "investissement": {
+      "label": "Investissement initial",
+      "moteur": {
+        "label": "Moteur + Installation",
+        "valeur": 1800
+      },
+      "accessoires": {
+        "label": "Télécommandes + Clavier",
+        "valeur": 200
+      },
+      "total": 2000
+    },
+    "economies": {
+      "label": "Économies annuelles",
+      "items": [
+        {
+          "label": "Temps gagné (16h × 25€/h SMIC chargé)",
+          "valeur": 400
+        },
+        {
+          "label": "Réduction usure (maintenance évitée)",
+          "valeur": 150
+        },
+        {
+          "label": "Baisse prime assurance (-10%)",
+          "valeur": 80
+        },
+        {
+          "label": "Économie remplacement anticipé",
+          "valeur": 200
+        }
+      ],
+      "total": 830
+    },
+    "roi": {
+      "label": "Temps d'amortissement",
+      "valeur": "2,4 ans",
+      "highlight": "Rentabilisé en moins de 2 ans et demi !"
+    }
+  },
+  
+  "benefices": [
+    {
+      "id": "productivite",
+      "title": "Gain de Productivité",
+      "description": "16 heures récupérées par an, c'est l'équivalent de 2 journées de travail complètes. Pour un commerçant du centre-ville de Montpellier avec plusieurs ouvertures quotidiennes, ce gain est encore plus significatif.",
+      "icon": "clock",
+      "stat": "16h/an"
+    },
+    {
+      "id": "durabilite",
+      "title": "Durée de Vie Prolongée",
+      "description": "Un rideau métallique motorisé subit 40% moins d'usure qu'un rideau manuel. Le mouvement constant et régulier du moteur préserve les lames, l'axe et les glissières. Dans l'Hérault, où le mistral peut être violent, c'est un atout majeur.",
+      "icon": "shield",
+      "stat": "+8 ans"
+    },
+    {
+      "id": "securite",
+      "title": "Sécurité Renforcée",
+      "description": "Le verrouillage automatique du moteur et le système anti-relevage réduisent de 65% les risques d'effraction. À Montpellier comme dans les zones commerciales de Lattes ou Odysseum, la sécurité est primordiale.",
+      "icon": "lock",
+      "stat": "-65% sinistres"
+    },
+    {
+      "id": "valorisation",
+      "title": "Valorisation du Local",
+      "description": "Un local commercial équipé d'un rideau motorisé se loue ou se vend plus facilement. Dans le quartier Antigone ou l'Écusson à Montpellier (34000), c'est un argument différenciant.",
+      "icon": "building",
+      "stat": "+5% valeur"
+    }
+  ],
+  
+  "timeline": {
+    "title": "Évolution de Votre Investissement",
+    "years": [
+      {
+        "annee": 1,
+        "label": "Année 1",
+        "investissement": -2000,
+        "economies": 830,
+        "cumul": -1170,
+        "description": "Investissement initial + premières économies"
+      },
+      {
+        "annee": 2,
+        "label": "Année 2",
+        "investissement": 0,
+        "economies": 830,
+        "cumul": -340,
+        "description": "Économies continues, proche de l'équilibre"
+      },
+      {
+        "annee": 3,
+        "label": "Année 3",
+        "investissement": 0,
+        "economies": 830,
+        "cumul": 490,
+        "description": "ROI atteint ! Bénéfice net"
+      },
+      {
+        "annee": 5,
+        "label": "Année 5",
+        "investissement": 0,
+        "economies": 830,
+        "cumul": 2150,
+        "description": "Bénéfice cumulé important"
+      },
+      {
+        "annee": 10,
+        "label": "Année 10",
+        "investissement": -300,
+        "economies": 830,
+        "cumul": 5950,
+        "description": "Maintenance moteur + économies continues"
+      }
+    ]
+  },
+  
+  "temoignage": {
+    "text": "J'ai motorisé mon rideau en 2021. Entre le temps gagné chaque jour et l'absence de problème mécanique, je ne regrette pas un instant. Le moteur s'est rentabilisé en 2 ans.",
+    "auteur": "Marc D.",
+    "commerce": "Boulangerie - Montpellier Centre",
+    "rating": 5
+  },
+  
+  "cta": {
+    "title": "Calculez votre ROI personnalisé",
+    "description": "Nos experts DRM établissent gratuitement un diagnostic de votre situation à Montpellier et dans tout l'Hérault.",
+    "buttonText": "Devis gratuit"
+  },
+  
+  "seo": {
+    "keywords": [
+      "rentabilité motorisation rideau",
+      "prix moteur rideau métallique Montpellier",
+      "investissement rideau électrique 34",
+      "économies motorisation Hérault",
+      "amortissement rideau motorisé"
+    ]
+  }
+}
+

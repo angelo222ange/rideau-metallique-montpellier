@@ -1,74 +1,189 @@
 {
-  "hero": {
-    "badge": "🛠️ Maintenance",
-    "title": "Entretien Rideau Métallique {city}",
-    "subtitle": "Prolongez la durée de vie de votre rideau avec un entretien régulier. Contrats de maintenance adaptés à vos besoins."
+  "meta": {
+    "title": "Entretien Rideau Métallique Montpellier | Maintenance Pro | DRM",
+    "description": "⭐ Entretien rideau métallique à Montpellier (34). Maintenance préventive : +10 ans de durée de vie, -70% de pannes. ✓ Contrats annuels ✓ Devis gratuit ☎️ 04 11 93 76 76",
+    "keywords": ["entretien rideau métallique Montpellier", "maintenance rideau métallique 34", "contrat entretien rideau Hérault", "révision rideau de fer", "graissage rideau métallique", "technicien rideau métallique Occitanie"]
   },
-  "avantages": [
-    {
-      "icon": "⏳",
-      "title": "Durée de vie prolongée",
-      "description": "Un entretien régulier permet de doubler la durée de vie de votre rideau."
-    },
-    {
-      "icon": "💰",
-      "title": "Économies sur les réparations",
-      "description": "Prévenir les pannes coûte moins cher que les réparer."
-    },
-    {
-      "icon": "🔐",
-      "title": "Sécurité optimale",
-      "description": "Un rideau bien entretenu assure une protection maximale."
-    },
-    {
-      "icon": "✅",
-      "title": "Conformité assurance",
-      "description": "Un entretien régulier est souvent exigé par les assureurs."
-    }
-  ],
-  "prestations": [
-    {
-      "icon": "🔧",
-      "title": "Graissage complet",
-      "description": "Lubrification de l'axe, des coulisses et des pièces mobiles."
-    },
-    {
-      "icon": "⚙️",
-      "title": "Réglage mécanique",
-      "description": "Ajustement des tensions, des fins de course et de l'équilibrage."
-    },
-    {
-      "icon": "🔍",
-      "title": "Contrôle de sécurité",
-      "description": "Vérification des systèmes de sécurité et anti-chute."
-    },
-    {
-      "icon": "📋",
-      "title": "Rapport d'intervention",
-      "description": "Compte-rendu détaillé avec recommandations."
-    }
-  ],
-  "contrats": [
-    {
-      "name": "Essentiel",
-      "price": "150€/an",
-      "features": ["1 visite annuelle", "Graissage complet", "Réglages mécaniques", "Rapport d'intervention"]
-    },
-    {
-      "name": "Sérénité",
-      "price": "250€/an",
-      "features": ["2 visites par an", "Tout Essentiel inclus", "Intervention prioritaire", "Remise 15% sur pièces"],
-      "isPopular": true
-    },
-    {
-      "name": "Premium",
-      "price": "Sur devis",
-      "features": ["Visites trimestrielles", "Tout Sérénité inclus", "Dépannage gratuit", "Pièces d'usure incluses"]
-    }
-  ],
+  "hero": {
+    "badge": "🛠️ Maintenance Préventive",
+    "title": "Entretien Rideau Métallique à Montpellier",
+    "subtitle": "Prolongez la durée de vie de votre rideau métallique et évitez les pannes imprévues grâce à notre service de maintenance préventive.",
+    "features": [
+      "Visite préventive",
+      "Techniciens certifiés",
+      "Rapport détaillé"
+    ]
+  },
+  "pourquoi": {
+    "title": "Pourquoi Entretenir Votre Rideau Métallique ?",
+    "subtitle": "Un entretien régulier est la clé pour garantir sécurité, performance et longévité de votre installation.",
+    "items": [
+      {
+        "id": "duree-vie",
+        "icon": "clock",
+        "title": "Prolonger la Durée de Vie",
+        "description": "Un rideau métallique bien entretenu peut durer plus de 20 ans. Sans entretien, sa durée de vie est divisée par deux. La lubrification et les réglages réguliers préservent les mécanismes.",
+        "stat": "+10 ans",
+        "statLabel": "durée de vie",
+        "features": [
+          "Lubrification des pièces mobiles",
+          "Prévention de l'usure prématurée",
+          "Remplacement préventif des pièces",
+          "Maintien des performances"
+        ],
+        "image": "/images/entretien-rideau-metallique-drm-montpellier.webp"
+      },
+      {
+        "id": "economies",
+        "icon": "shield",
+        "title": "Éviter les Pannes Imprévues",
+        "description": "Une panne de rideau métallique peut bloquer votre commerce en urgence. L'entretien préventif permet de détecter et corriger les problèmes avant qu'ils ne deviennent critiques.",
+        "stat": "-70%",
+        "statLabel": "de pannes",
+        "features": [
+          "Détection précoce des anomalies",
+          "Réparations mineures incluses",
+          "Évite les fermetures forcées",
+          "Budget maintenance maîtrisé"
+        ],
+        "image": "/images/maintenance-rideau-metallique-drm.webp"
+      },
+      {
+        "id": "securite",
+        "icon": "shield",
+        "title": "Sécurité Assurée",
+        "description": "Un rideau mal entretenu représente un danger pour les utilisateurs et un risque d'intrusion. Nos contrôles de sécurité garantissent une protection optimale de votre commerce.",
+        "stat": "100%",
+        "statLabel": "sécurisé",
+        "features": [
+          "Test des systèmes anti-chute",
+          "Vérification des fins de course",
+          "Contrôle du système de verrouillage",
+          "Conformité aux normes"
+        ],
+        "image": "/images/depannage-entretien-rideau-metallique-montpellier.webp"
+      },
+      {
+        "id": "conformite",
+        "icon": "document",
+        "title": "Conformité Réglementaire",
+        "description": "Les assurances et certaines réglementations exigent un entretien régulier des rideaux métalliques. Notre rapport d'intervention vous couvre en cas de sinistre.",
+        "stat": "Attestation",
+        "statLabel": "fournie",
+        "features": [
+          "Rapport d'intervention détaillé",
+          "Attestation pour assurance",
+          "Conformité ERP si applicable",
+          "Traçabilité des interventions"
+        ],
+        "image": "/images/carnet-entretien-rideau-metallique.webp"
+      }
+    ]
+  },
+  "prestations": {
+    "title": "Ce que Comprend Notre Entretien",
+    "subtitle": "Une visite d'entretien complète pour assurer le bon fonctionnement de votre rideau métallique.",
+    "items": [
+      {
+        "icon": "oil",
+        "title": "Lubrification Complète",
+        "description": "Graissage de l'axe d'enroulement, des coulisses, des ressorts et de toutes les pièces mobiles avec des produits professionnels."
+      },
+      {
+        "icon": "wrench",
+        "title": "Réglages Mécaniques",
+        "description": "Ajustement de la tension des ressorts, réglage des fins de course, équilibrage du tablier pour un fonctionnement optimal."
+      },
+      {
+        "icon": "search",
+        "title": "Inspection Visuelle",
+        "description": "Examen de l'état général : lames, coulisses, joints, fixations. Détection des signes d'usure ou de corrosion."
+      },
+      {
+        "icon": "shield",
+        "title": "Contrôle Sécurité",
+        "description": "Test des dispositifs anti-chute, vérification du verrouillage, contrôle des systèmes de sécurité motorisés."
+      },
+      {
+        "icon": "motor",
+        "title": "Test Motorisation",
+        "description": "Pour les rideaux motorisés : vérification du moteur, test des télécommandes, contrôle des capteurs."
+      },
+      {
+        "icon": "document",
+        "title": "Rapport Détaillé",
+        "description": "Compte-rendu complet de l'intervention avec photos, recommandations et attestation d'entretien."
+      }
+    ]
+  },
+  "contrats": {
+    "title": "Nos Contrats de Maintenance",
+    "subtitle": "Choisissez la formule adaptée à vos besoins. Devis personnalisé gratuit après évaluation de votre installation.",
+    "items": [
+      {
+        "id": "essentiel",
+        "name": "Essentiel",
+        "price": "Sur devis",
+        "period": "",
+        "description": "L'entretien de base pour les petits commerces",
+        "isPopular": false,
+        "features": [
+          "1 visite annuelle",
+          "Lubrification complète",
+          "Réglages mécaniques",
+          "Contrôle sécurité",
+          "Rapport d'intervention"
+        ],
+        "notIncluded": [
+          "Intervention prioritaire",
+          "Remise sur pièces",
+          "Dépannage inclus"
+        ]
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "price": "Sur devis",
+        "period": "",
+        "description": "Le choix des professionnels exigeants",
+        "isPopular": true,
+        "features": [
+          "2 visites par an",
+          "Tout Essentiel inclus",
+          "Intervention prioritaire 24h",
+          "Remise 15% sur pièces",
+          "Assistance téléphonique",
+          "Rappel automatique"
+        ],
+        "notIncluded": [
+          "Dépannage inclus"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "Premium",
+        "price": "Sur devis",
+        "period": "",
+        "description": "La tranquillité totale pour votre commerce",
+        "isPopular": false,
+        "features": [
+          "4 visites par an",
+          "Tout Pro inclus",
+          "Dépannage gratuit illimité",
+          "Pièces d'usure incluses",
+          "Remplacement à neuf après 10 ans",
+          "Interlocuteur dédié"
+        ],
+        "notIncluded": []
+      }
+    ]
+  },
+  "urgence": {
+    "title": "Besoin d'un Dépannage Urgent ?",
+    "description": "Votre rideau métallique est bloqué ou en panne ? Nos techniciens interviennent en urgence 24h/24 à Montpellier."
+  },
   "cta": {
-    "title": "Besoin d'un contrat d'entretien ?",
-    "subtitle": "Nos techniciens vous proposent la formule adaptée à vos besoins."
+    "title": "Protégez Votre Investissement",
+    "subtitle": "Un entretien régulier, c'est la garantie d'un rideau métallique performant et sécurisé pour de nombreuses années."
   }
 }
-

@@ -1,0 +1,99 @@
+{
+  "id": "urgence",
+  "title": "Dépannage Urgence Rideau Métallique Montpellier",
+  "titleHighlight": "Disponible 24h/24",
+  "subtitle": "Votre rideau métallique est bloqué en position ouverte ? Une effraction a endommagé votre rideau de fer ? Nos techniciens interviennent en urgence de jour comme de nuit, 7 jours sur 7, dans tout Montpellier et le département 34.",
+  "badge": {
+    "text": "Urgence 24h/24 7j/7",
+    "icon": "clock"
+  },
+  "promise": {
+    "title": "Intervention en moins d'1h",
+    "description": "Où que vous soyez à Montpellier, dans l'Écusson, à Antigone, Port Marianne ou dans les communes environnantes de l'Hérault, notre équipe d'astreinte se déplace en moins d'une heure pour sécuriser votre commerce."
+  },
+  "stats": [
+    {
+      "value": "127+",
+      "label": "Interventions / mois",
+      "icon": "tools"
+    },
+    {
+      "value": "98%",
+      "label": "Résolues en 1 passage",
+      "icon": "check"
+    },
+    {
+      "value": "<1h",
+      "label": "Délai intervention 34",
+      "icon": "clock"
+    },
+    {
+      "value": "24/7",
+      "label": "Disponibilité totale",
+      "icon": "calendar"
+    }
+  ],
+  "emergencyCases": [
+    {
+      "id": "cambriolage",
+      "title": "Tentative de cambriolage",
+      "description": "Rideau forcé ou endommagé suite à une tentative d'effraction. Sécurisation immédiate de votre local commercial.",
+      "icon": "shield"
+    },
+    {
+      "id": "blocage",
+      "title": "Blocage complet",
+      "description": "Votre rideau métallique ne monte plus, ne descend plus ou reste bloqué à mi-course. Déblocage rapide garanti.",
+      "icon": "lock"
+    },
+    {
+      "id": "panne-moteur",
+      "title": "Panne moteur électrique",
+      "description": "Moteur grillé, condensateur HS ou problème électrique. Diagnostic et remplacement sur place.",
+      "icon": "bolt"
+    },
+    {
+      "id": "intemperies",
+      "title": "Dégâts suite intempéries",
+      "description": "Rideau endommagé par le vent, la grêle ou les inondations. Réparation d'urgence dans toute l'Occitanie.",
+      "icon": "cloud"
+    }
+  ],
+  "guarantees": [
+    "Technicien sur place en moins d'1 heure dans le 34",
+    "Devis gratuit avant toute intervention",
+    "Pièces de rechange en stock dans nos véhicules",
+    "Garantie sur toutes les réparations",
+    "Intervention nuit, week-end et jours fériés",
+    "Pas de surcoût caché"
+  ],
+  "cta": {
+    "primary": {
+      "text": "Appeler maintenant",
+      "subtext": "Disponible 24h/24"
+    },
+    "secondary": {
+      "text": "Demander un rappel",
+      "href": "/contact"
+    }
+  },
+  "image": "/images/hero/depannage-rideau-metallique-urgence-montpellier.webp",
+  "imageAlt": "Technicien DRM en intervention urgente de nuit sur rideau métallique à Montpellier",
+  "seo": {
+    "keywords": [
+      "urgence rideau métallique Montpellier",
+      "dépannage rideau métallique 24h/24",
+      "intervention rapide rideau métallique 34",
+      "dépannage nuit rideau métallique Hérault",
+      "rideau métallique bloqué urgence",
+      "réparation rideau métallique week-end",
+      "déblocage rideau de fer urgence Occitanie",
+      "technicien rideau métallique disponible"
+    ]
+  },
+  "localSeo": {
+    "intro": "Service d'urgence rideau métallique disponible 24 heures sur 24 dans toute l'agglomération montpelliéraine.",
+    "zones": "Nos techniciens d'astreinte couvrent Montpellier (34000), Castelnau-le-Lez, Lattes, Pérols, Saint-Jean-de-Védas, Juvignac et plus de 20 communes de l'Hérault.",
+    "expertise": "Entreprise héraultaise spécialisée depuis 15 ans, nous sommes le premier dépanneur de rideau métallique en Occitanie pour les urgences commerciales."
+  }
+}

@@ -16,7 +16,7 @@ set -e
 # ─────────────────────────────────────────────────────────────────────────
 VPS_USER="root"
 VPS_HOST="votre-ip-vps.com"  # ← À MODIFIER avec l'IP de votre VPS
-DOMAIN="depannage-rideau-metallique-montpellier.fr"
+DOMAIN="depannagerideau-metallique-montpellier.fr"
 SLUG="drm-montpellier"
 
 REMOTE_PATH="/var/www/$SLUG"

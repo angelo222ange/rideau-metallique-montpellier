@@ -10,14 +10,14 @@ export const siteConfig = {
   // ─────────────────────────────────────────────────────────────────────────
   name: "DRM Montpellier",
   fullName: "Dépannage Rideau Métallique Montpellier",
-  domain: "depannage-rideau-metallique-montpellier.fr",
+  domain: "depannagerideau-metallique-montpellier.fr",
   
   // ─────────────────────────────────────────────────────────────────────────
   // CONTACT
   // ─────────────────────────────────────────────────────────────────────────
   phone: "04 11 93 76 76",
   phoneLink: "tel:+33411937676",
-  email: "contact@depannage-rideau-metallique-montpellier.fr",
+  email: "contact@depannagerideau-metallique-montpellier.fr",
   
   // ─────────────────────────────────────────────────────────────────────────
   // LOCALISATION

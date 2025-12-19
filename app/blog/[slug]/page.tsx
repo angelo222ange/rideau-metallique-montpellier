@@ -178,7 +178,7 @@ export default async function BlogArticlePage({
       <section className="relative bg-gradient-to-br from-primary-800 via-primary-700 to-primary-600 py-12 md:py-16 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="container relative z-10">
-          <Breadcrumb items={breadcrumbItems} variant="light" />
+          <Breadcrumb items={breadcrumbItems} className="bg-transparent border-none text-white [&_a]:text-white/80 [&_a:hover]:text-white [&_span]:text-white/60 [&_li:last-child_span]:text-white" />
         </div>
       </section>
 

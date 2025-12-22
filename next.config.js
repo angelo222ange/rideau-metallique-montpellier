@@ -16,6 +16,12 @@ const nextConfig = {
   
   // Optimisation du bundling
   swcMinify: true,
+  
+  // Optimisations expérimentales pour la performance
+  experimental: {
+    // Optimisation des imports de packages
+    optimizePackageImports: ['react', 'react-dom'],
+  },
 }
 
 module.exports = nextConfig

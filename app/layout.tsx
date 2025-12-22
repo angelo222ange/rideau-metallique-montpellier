@@ -1,27 +1,35 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
+import dynamic from "next/dynamic";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { FloatingButton } from "@/components/ui/FloatingButton";
 
-// Plus Jakarta Sans pour les titres - poids réduits pour performance
+// FloatingButton chargé dynamiquement (non critique pour le rendu initial)
+const FloatingButton = dynamic(
+  () => import("@/components/ui/FloatingButton").then((mod) => mod.FloatingButton),
+  { ssr: false }
+);
+
+// Plus Jakarta Sans pour les titres - poids minimum pour performance
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-plus-jakarta",
-  weight: ["600", "700", "800"],
+  weight: ["700"], // Un seul poids pour les titres - réduit la taille du fichier
   preload: true,
+  fallback: ['system-ui', 'sans-serif'],
 });
 
-// DM Sans pour le corps de texte - poids réduits pour performance
+// DM Sans pour le corps de texte - poids minimum pour performance
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-dm-sans",
-  weight: ["400", "500", "700"],
+  weight: ["400", "500"], // Retiré 700 (on utilise Plus Jakarta pour le bold)
   preload: true,
+  fallback: ['system-ui', 'sans-serif'],
 });
 
 export const metadata: Metadata = {
@@ -158,17 +166,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${plusJakarta.variable} ${dmSans.variable}`}>
       <head>
-        {/* Preconnect pour performances */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        
         {/* Favicon */}
         <link
           rel="icon"
           type="image/webp"
           href="/images/favicon-drm-montpellier-depanage-rideau-metallique.webp"
+        />
+        
+        {/* Preload LCP image pour améliorer le score mobile */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/hero/depannage-rideau-metallique-montpellier-34-herault.webp"
+          type="image/webp"
         />
         
         {/* Schema.org */}

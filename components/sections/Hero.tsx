@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { getPageContent } from "@/lib/content";
@@ -15,7 +13,6 @@ interface HeroProps {
 
 export function Hero({ badge, title, subtitle }: HeroProps) {
   const displayBadge = badge || content.hero.badge;
-  const displayTitle = title || content.hero.title;
   const displaySubtitle = subtitle || content.hero.subtitle;
 
   return (
@@ -28,7 +25,8 @@ export function Hero({ badge, title, subtitle }: HeroProps) {
           fill
           className="object-cover"
           priority
-          quality={90}
+          quality={75}
+          sizes="100vw"
         />
         {/* Filtre bleuté + overlay pour lisibilité du texte blanc */}
         <div className="absolute inset-0 bg-primary-900/60 mix-blend-multiply" />
@@ -152,6 +150,7 @@ export function Hero({ badge, title, subtitle }: HeroProps) {
                 height={700}
                 className="object-contain drop-shadow-2xl rounded-2xl"
                 priority
+                sizes="(max-width: 1024px) 0vw, 50vw"
               />
               {/* Badge flottant 24/7 */}
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-4 shadow-xl animate-float">

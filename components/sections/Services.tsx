@@ -136,6 +136,8 @@ export function Services({ title, subtitle }: ServicesProps) {
                 alt={depannageService.name}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                loading="lazy"
               />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20 group-hover:from-black/90 group-hover:via-black/55 transition-all duration-300" />
@@ -219,6 +221,8 @@ export function Services({ title, subtitle }: ServicesProps) {
                       alt={service.name}
                       fill
                       className={`object-cover transition-transform duration-500 group-hover:scale-105 ${service.imagePosition === 'top' ? 'object-top' : 'object-center'}`}
+                      sizes="(max-width: 1024px) 100vw, 45vw"
+                      loading="lazy"
                     />
                     {/* Overlay gradient */}
                     <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40 group-hover:from-black/85 group-hover:via-black/65 transition-all duration-300" />

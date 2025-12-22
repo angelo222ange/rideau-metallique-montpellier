@@ -112,6 +112,7 @@ export function Header() {
                   height={60}
                   className="h-full w-auto object-contain"
                   priority
+                  sizes="200px"
                 />
               </div>
             </Link>

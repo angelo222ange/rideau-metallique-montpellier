@@ -33,7 +33,8 @@ export function Footer() {
                     width={400}
                     height={120}
                     className="h-full w-auto object-contain"
-                    priority
+                    loading="lazy"
+                    sizes="(max-width: 1024px) 150px, 200px"
                   />
                 </div>
               </Link>

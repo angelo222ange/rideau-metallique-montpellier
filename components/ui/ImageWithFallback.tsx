@@ -11,6 +11,8 @@ interface ImageWithFallbackProps {
   height?: number;
   className?: string;
   priority?: boolean;
+  /** Attribut sizes pour le responsive */
+  sizes?: string;
   /** Texte à afficher comme placeholder */
   placeholderText?: string;
   /** Dimensions à afficher dans le placeholder */
@@ -25,6 +27,7 @@ export function ImageWithFallback({
   height,
   className,
   priority,
+  sizes = "(max-width: 768px) 100vw, 50vw",
   placeholderText = "Image",
   placeholderDimensions,
 }: ImageWithFallbackProps) {
@@ -43,8 +46,10 @@ export function ImageWithFallback({
       fill={fill}
       width={width}
       height={height}
-      className={`${className} ${isLoaded ? '' : 'opacity-0'} transition-opacity duration-300`}
+      className={`${className} ${isLoaded ? '' : 'opacity-0'} transition-opacity duration-200`}
       priority={priority}
+      sizes={fill ? sizes : undefined}
+      loading={priority ? undefined : "lazy"}
       onError={() => setHasError(true)}
       onLoad={() => setIsLoaded(true)}
     />

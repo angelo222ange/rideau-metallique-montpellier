@@ -311,13 +311,16 @@ export default function InstallationPage() {
               className="object-cover" 
               priority 
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-primary-900/95 via-primary-900/85 to-primary-900/70" />
+            {/* Overlay MOBILE : plus foncé */}
+            <div className="absolute inset-0 bg-primary-950/90 md:hidden" />
+            {/* Overlay DESKTOP */}
+            <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-primary-900/95 via-primary-900/85 to-primary-900/70" />
           </div>
           
           <div className="container relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-600/50 backdrop-blur text-white text-sm font-semibold mb-6">
+                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-600/70 md:bg-primary-600/50 md:backdrop-blur text-white text-sm font-semibold mb-6">
                 {icons.tools}
                 {content.hero.badge}
               </span>
@@ -339,11 +342,11 @@ export default function InstallationPage() {
               </div>
 
                 {/* Stats */}
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-3 gap-2 md:gap-4">
                   {content.stats.map((stat, index) => (
-                    <div key={index} className="text-center p-4 bg-white/10 backdrop-blur rounded-xl border border-white/10">
-                      <p className="text-2xl md:text-3xl font-bold text-accent-400">{stat.value}</p>
-                      <p className="text-sm text-gray-300">{stat.label}</p>
+                    <div key={index} className="text-center p-3 md:p-4 bg-white/20 md:bg-white/10 md:backdrop-blur rounded-xl border border-white/20 md:border-white/10">
+                      <p className="text-xl md:text-2xl lg:text-3xl font-bold text-accent-400">{stat.value}</p>
+                      <p className="text-xs md:text-sm text-gray-200 md:text-gray-300">{stat.label}</p>
                   </div>
                 ))}
               </div>

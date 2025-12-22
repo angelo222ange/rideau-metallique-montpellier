@@ -195,10 +195,12 @@ export default function EntretienPage() {
             className="object-cover"
             priority
           />
-          {/* Overlay gradient */}
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-900/75 to-primary-900/50" />
-          <div className="absolute inset-0 bg-gradient-to-t from-primary-900/80 via-transparent to-primary-900/40" />
-          <div className="absolute inset-0 opacity-10 bg-grid-pattern" />
+          {/* Overlay MOBILE : plus foncé pour lisibilité */}
+          <div className="absolute inset-0 bg-primary-950/90 md:hidden" />
+          {/* Overlay DESKTOP : dégradé subtil */}
+          <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-primary-900/90 via-primary-900/75 to-primary-900/50" />
+          <div className="absolute inset-0 bg-gradient-to-t from-primary-900/90 md:from-primary-900/80 via-primary-900/40 md:via-transparent to-primary-900/60 md:to-primary-900/40" />
+          <div className="hidden md:block absolute inset-0 opacity-10 bg-grid-pattern" />
         </div>
 
         <div className="container relative z-10 pt-32 pb-20">
@@ -206,8 +208,8 @@ export default function EntretienPage() {
             {/* Content */}
             <div className="text-white">
               {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-medium mb-6 animate-fade-in-up">
-                <span className="w-2 h-2 bg-accent-400 rounded-full animate-pulse" />
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/25 md:bg-white/10 md:backdrop-blur-sm border border-white/30 md:border-white/20 text-white text-sm font-medium mb-6 animate-fade-in-up">
+                <span className="w-2 h-2 bg-accent-400 rounded-full md:animate-pulse" />
                 Maintenance Préventive
               </div>
 
@@ -244,14 +246,14 @@ export default function EntretienPage() {
                 </a>
               </div>
 
-              {/* Trust badges */}
-              <div className="flex flex-wrap gap-3 animate-fade-in-up animation-delay-400">
+              {/* Trust badges - Optimisé mobile */}
+              <div className="flex flex-wrap gap-2 md:gap-3 animate-fade-in-up animation-delay-400">
                 {entretienContent.hero.features.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-xl border border-white/10">
-                    <svg className="w-5 h-5 text-accent-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div key={index} className="flex items-center gap-2 px-3 md:px-4 py-2 bg-white/25 md:bg-white/10 md:backdrop-blur-sm rounded-xl border border-white/30 md:border-white/10">
+                    <svg className="w-4 md:w-5 h-4 md:h-5 text-accent-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span className="font-medium text-white">{feature}</span>
+                    <span className="font-medium text-white text-sm md:text-base">{feature}</span>
                   </div>
                 ))}
               </div>

@@ -28,10 +28,12 @@ export function Hero({ badge, title, subtitle }: HeroProps) {
           quality={75}
           sizes="100vw"
         />
-        {/* Filtre bleuté + overlay pour lisibilité du texte blanc */}
-        <div className="absolute inset-0 bg-primary-900/60 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-900/80 via-primary-800/50 to-primary-700/30" />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary-900/70 via-transparent to-primary-800/40" />
+        {/* Overlay MOBILE : très foncé pour lisibilité parfaite */}
+        <div className="absolute inset-0 bg-primary-950/85 md:hidden" />
+        {/* Overlay DESKTOP : dégradé plus subtil */}
+        <div className="hidden md:block absolute inset-0 bg-primary-900/60 mix-blend-multiply" />
+        <div className="hidden md:block absolute inset-0 bg-gradient-to-r from-primary-900/80 via-primary-800/50 to-primary-700/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary-900/90 md:from-primary-900/70 via-primary-900/50 md:via-transparent to-primary-900/80 md:to-primary-800/40" />
       </div>
 
       <div className="container relative z-10 pt-8 pb-16 md:pt-12 md:pb-24">
@@ -39,8 +41,8 @@ export function Hero({ badge, title, subtitle }: HeroProps) {
           {/* Contenu gauche */}
           <div>
           {/* Badge animé */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-medium mb-6 animate-fade-in-up">
-            <span className="w-2 h-2 bg-secondary-500 rounded-full animate-pulse" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 md:bg-white/10 md:backdrop-blur-sm border border-white/30 md:border-white/20 text-white text-sm font-medium mb-6 animate-fade-in-up">
+            <span className="w-2 h-2 bg-secondary-500 rounded-full md:animate-pulse" />
             {displayBadge.replace(/[^\w\s]/gi, '')}
           </div>
 
@@ -82,59 +84,59 @@ export function Hero({ badge, title, subtitle }: HeroProps) {
             </a>
           </div>
 
-          {/* Trust badges */}
-          <div className="flex flex-wrap gap-3 animate-fade-in-up animation-delay-400">
+          {/* Trust badges - Version mobile optimisée en grille 2x2 */}
+          <div className="grid grid-cols-2 gap-2 md:flex md:flex-wrap md:gap-3 animate-fade-in-up animation-delay-400">
             {/* Badge 24h/24 */}
-            <div className="flex items-center gap-3 px-4 py-3 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
-              <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 bg-white/25 md:bg-white/10 md:backdrop-blur-sm rounded-xl border border-white/30 md:border-white/20">
+              <div className="w-8 md:w-10 h-8 md:h-10 rounded-lg bg-white/30 md:bg-white/20 flex items-center justify-center">
+                <svg className="w-4 md:w-5 h-4 md:h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-white">24h/24</p>
-                <p className="text-xs text-white/70">7 jours sur 7</p>
+                <p className="font-bold text-white text-sm md:text-base">24h/24</p>
+                <p className="text-xs text-white/80 md:text-white/70">7 jours sur 7</p>
               </div>
             </div>
 
             {/* Badge Intervention rapide */}
-            <div className="flex items-center gap-3 px-4 py-3 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
-              <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 bg-white/25 md:bg-white/10 md:backdrop-blur-sm rounded-xl border border-white/30 md:border-white/20">
+              <div className="w-8 md:w-10 h-8 md:h-10 rounded-lg bg-white/30 md:bg-white/20 flex items-center justify-center">
+                <svg className="w-4 md:w-5 h-4 md:h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-white">-1h</p>
-                <p className="text-xs text-white/70">Intervention rapide</p>
+                <p className="font-bold text-white text-sm md:text-base">-1h</p>
+                <p className="text-xs text-white/80 md:text-white/70">Intervention</p>
               </div>
             </div>
 
             {/* Badge Garantie */}
-            <div className="flex items-center gap-3 px-4 py-3 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
-              <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 bg-white/25 md:bg-white/10 md:backdrop-blur-sm rounded-xl border border-white/30 md:border-white/20">
+              <div className="w-8 md:w-10 h-8 md:h-10 rounded-lg bg-white/30 md:bg-white/20 flex items-center justify-center">
+                <svg className="w-4 md:w-5 h-4 md:h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
               <div>
-                <p className="font-bold text-white">Garantie</p>
-                <p className="text-xs text-white/70">Pièces & main d&apos;œuvre</p>
+                <p className="font-bold text-white text-sm md:text-base">Garantie</p>
+                <p className="text-xs text-white/80 md:text-white/70">Pièces & MO</p>
               </div>
             </div>
 
             {/* Badge Avis Google */}
-            <div className="flex items-center gap-3 px-4 py-3 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
-              <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center">
+            <div className="flex items-center gap-2 md:gap-3 px-3 md:px-4 py-2 md:py-3 bg-white/25 md:bg-white/10 md:backdrop-blur-sm rounded-xl border border-white/30 md:border-white/20">
+              <div className="w-8 md:w-10 h-8 md:h-10 rounded-lg bg-white/30 md:bg-white/20 flex items-center justify-center">
                 <div className="flex text-gold-400">
-                  <svg className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                  <svg className="w-4 md:w-5 h-4 md:h-5 fill-current" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                   </svg>
                 </div>
               </div>
               <div>
-                <p className="font-bold text-white">{siteConfig.reviews.rating}/5</p>
-                <p className="text-xs text-white/70">Google</p>
+                <p className="font-bold text-white text-sm md:text-base">{siteConfig.reviews.rating}/5</p>
+                <p className="text-xs text-white/80 md:text-white/70">Google</p>
               </div>
             </div>
           </div>

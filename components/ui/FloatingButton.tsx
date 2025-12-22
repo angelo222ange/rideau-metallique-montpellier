@@ -41,24 +41,24 @@ export function FloatingButton() {
       {/* Main floating button */}
       <a
         href={siteConfig.phoneLink}
-        className={`fixed bottom-6 right-6 z-50 flex items-center gap-3 
-                   bg-gradient-to-r from-secondary-500 to-secondary-600 
+        className={`fixed bottom-6 right-4 md:right-6 z-50 flex items-center gap-2 md:gap-3 
+                   bg-secondary-500 md:bg-gradient-to-r md:from-secondary-500 md:to-secondary-600 
                    text-white rounded-full
-                   shadow-xl shadow-secondary-500/40 
-                   hover:shadow-2xl hover:shadow-secondary-500/50
-                   hover:scale-105 active:scale-95
+                   shadow-lg md:shadow-xl md:shadow-secondary-500/40 
+                   md:hover:shadow-2xl md:hover:shadow-secondary-500/50
+                   md:hover:scale-105 active:scale-95
                    transition-all duration-300 ease-out
                    ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0 pointer-events-none'}
-                   ${isExpanded ? 'pr-6 pl-4 py-3' : 'p-4'}`}
+                   ${isExpanded ? 'pr-5 md:pr-6 pl-3 md:pl-4 py-2.5 md:py-3' : 'p-3 md:p-4'}`}
         aria-label={`Appeler le ${siteConfig.phone}`}
         onMouseEnter={() => setIsExpanded(true)}
         onMouseLeave={() => setIsExpanded(false)}
       >
-        {/* Pulse ring */}
-        <span className="absolute inset-0 rounded-full bg-secondary-400 animate-ping opacity-30" />
+        {/* Pulse ring - désactivé sur mobile pour perf */}
+        <span className="hidden md:block absolute inset-0 rounded-full bg-secondary-400 animate-ping opacity-30" />
         
-        {/* Inner pulse */}
-        <span className="absolute inset-0 rounded-full bg-secondary-500 animate-pulse opacity-50" />
+        {/* Inner pulse - désactivé sur mobile pour perf */}
+        <span className="hidden md:block absolute inset-0 rounded-full bg-secondary-500 animate-pulse opacity-50" />
         
         {/* Phone icon with badge */}
         <span className="relative z-10">
@@ -89,11 +89,11 @@ export function FloatingButton() {
         </span>
       </a>
 
-      {/* Secondary action - Scroll to top (optional) */}
+      {/* Secondary action - Scroll to top - Caché sur mobile pour moins de distraction */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className={`fixed bottom-6 left-6 z-50 
-                   w-12 h-12 flex items-center justify-center
+        className={`hidden md:flex fixed bottom-6 left-6 z-50 
+                   w-12 h-12 items-center justify-center
                    bg-white text-primary-600 rounded-full
                    shadow-lg shadow-gray-200/50 
                    border border-gray-100

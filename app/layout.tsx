@@ -6,20 +6,22 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingButton } from "@/components/ui/FloatingButton";
 
-// Plus Jakarta Sans pour les titres
+// Plus Jakarta Sans pour les titres - poids réduits pour performance
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-plus-jakarta",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["600", "700", "800"],
+  preload: true,
 });
 
-// DM Sans pour le corps de texte
+// DM Sans pour le corps de texte - poids réduits pour performance
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-dm-sans",
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "700"],
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -156,11 +158,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${plusJakarta.variable} ${dmSans.variable}`}>
       <head>
+        {/* Preconnect pour performances */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Favicon */}
         <link
           rel="icon"
           type="image/webp"
           href="/images/favicon-drm-montpellier-depanage-rideau-metallique.webp"
         />
+        
+        {/* Schema.org */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}

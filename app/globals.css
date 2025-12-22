@@ -35,10 +35,19 @@
 @layer base {
   html {
     @apply scroll-smooth;
+    /* Optimisation du rendu texte */
+    text-rendering: optimizeSpeed;
   }
 
   body {
     @apply bg-white text-metal-800 antialiased font-sans;
+    /* Améliore les performances de scroll */
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Optimisation des images pour éviter les layout shifts */
+  img, video {
+    content-visibility: auto;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -262,17 +271,6 @@
   100% { background-position: 200% 0; }
 }
 
-@keyframes fade-in-up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
@@ -287,16 +285,20 @@
   animation: shimmer 2s linear infinite;
 }
 
+/* Animations d'ouverture désactivées */
 .animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
+  opacity: 1;
+  transform: translateY(0);
 }
 
-/* Animation delays pour stagger effect */
-.animation-delay-100 { animation-delay: 100ms; }
-.animation-delay-200 { animation-delay: 200ms; }
-.animation-delay-300 { animation-delay: 300ms; }
-.animation-delay-400 { animation-delay: 400ms; }
-.animation-delay-500 { animation-delay: 500ms; }
+.animation-delay-100,
+.animation-delay-150,
+.animation-delay-200,
+.animation-delay-300,
+.animation-delay-400,
+.animation-delay-500 {
+  /* Délais désactivés */
+}
 
 /* Hide scrollbar for carousel */
 .scrollbar-hide {
@@ -305,4 +307,42 @@
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+}
+
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ * OPTIMISATIONS PERFORMANCE
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+/* GPU acceleration pour éléments fixes */
+header[class*="fixed"],
+[class*="fixed"][class*="bottom"] {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Optimisation du rendu des sections */
+section {
+  contain: layout style;
+}
+
+/* Optimisation des cards et éléments interactifs */
+.card, .card-hover,
+[class*="hover:-translate"],
+[class*="hover:scale"] {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Réduire les repaints sur les éléments avec transitions */
+[class*="transition-all"],
+[class*="transition-transform"] {
+  backface-visibility: hidden;
+}
+
+/* Optimisation touch pour mobile */
+a, button {
+  touch-action: manipulation;
 }

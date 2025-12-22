@@ -102,15 +102,15 @@ function ZoneSlideshow({
       
       {/* Navigation dots */}
       {zones.length > itemsPerView && (
-        <div className="flex justify-center gap-1.5 mt-4">
+        <div className="flex justify-center gap-3 mt-5">
           {Array.from({ length: maxIndex + 1 }).map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-2 h-2 rounded-full transition-all ${
+              className={`h-2.5 rounded-full transition-all duration-300 ${
                 idx === currentIndex 
-                  ? 'bg-primary-500 w-6' 
-                  : 'bg-gray-300 hover:bg-gray-400'
+                  ? 'bg-primary-500 w-8' 
+                  : 'bg-gray-300 hover:bg-gray-400 w-2.5'
               }`}
               aria-label={`Aller à la slide ${idx + 1}`}
             />

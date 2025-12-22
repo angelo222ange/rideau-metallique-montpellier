@@ -95,15 +95,15 @@ export function HeroSlideshow() {
       </div>
 
       {/* Dots indicator */}
-      <div className="flex justify-center gap-2 mt-4">
+      <div className="flex justify-center gap-3 mt-5">
         {slideshowImages.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-2 h-2 rounded-full transition-all duration-300 ${
+            className={`h-2.5 rounded-full transition-all duration-300 ${
               index === currentIndex 
-                ? "bg-white w-6" 
-                : "bg-white/40 hover:bg-white/60"
+                ? "bg-white w-8" 
+                : "bg-white/40 hover:bg-white/60 w-2.5"
             }`}
             aria-label={`Voir image ${index + 1}`}
           />
